@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLParser", "SQLParser\SQLParser.csproj", "{BB79452B-A018-4DA3-B6BF-2A6722829D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLParser.Tests", "SQLParser.Tests\SQLParser.Tests.csproj", "{F8471E63-DECC-4A6C-A7FF-3D141360C6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB79452B-A018-4DA3-B6BF-2A6722829D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB79452B-A018-4DA3-B6BF-2A6722829D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB79452B-A018-4DA3-B6BF-2A6722829D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB79452B-A018-4DA3-B6BF-2A6722829D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8471E63-DECC-4A6C-A7FF-3D141360C6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8471E63-DECC-4A6C-A7FF-3D141360C6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8471E63-DECC-4A6C-A7FF-3D141360C6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8471E63-DECC-4A6C-A7FF-3D141360C6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA4A60FD-376D-4C98-A700-DAB5AD7B410D}
+	EndGlobalSection
+EndGlobal
