@@ -1,7 +1,29 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <BuildNumber Condition=" '$(APPVEYOR_BUILD_NUMBER)' != '' ">$(APPVEYOR_BUILD_NUMBER)</BuildNumber>
+    <!-- for AppVeyor -->
+    <BuildNumber Condition=" '$(BUILD_NUMBER)' != '' ">$(BUILD_NUMBER)</BuildNumber>
+    <!-- for Team City -->
+    <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
+    <!-- if not set -->
+    <Description>SQLParser is, as the name suggests, a parser/lexer for SQL.</Description>
+    <AssemblyTitle>SQLParser</AssemblyTitle>
+    <Authors>James Craig</Authors>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>SQLParser</AssemblyName>
+    <PackageId>SQLParser</PackageId>
+    <PackageTags>SQL;Databases;T-SQL</PackageTags>
+    <PackageProjectUrl>https://github.com/JaCraig/SQLParser</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/JaCraig/SQLParser/blob/master/LICENSE</PackageLicenseUrl>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.$(BuildNumber)</Version>
   </PropertyGroup>
 
   <ItemGroup>
