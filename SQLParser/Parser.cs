@@ -18,6 +18,7 @@ using Antlr4.Runtime;
 using Antlr4.Runtime.Tree;
 using SQLParser.Enums;
 using SQLParser.Parsers.TSql;
+using System.IO;
 
 namespace SQLParser
 {
@@ -46,9 +47,9 @@ namespace SQLParser
         private static void ParseTSQL(string input, IParseTreeListener listener)
         {
             ICharStream Stream = CharStreams.fromstring(input);
-            ITokenSource Lexer = new TSqlLexer(Stream);
+            ITokenSource Lexer = new TSqlLexer(Stream, TextWriter.Null, TextWriter.Null);
             ITokenStream Tokens = new CommonTokenStream(Lexer);
-            TSqlParser Parser = new TSqlParser(Tokens)
+            TSqlParser Parser = new TSqlParser(Tokens, TextWriter.Null, TextWriter.Null)
             {
                 BuildParseTree = true
             };
