@@ -10,24 +10,22 @@
     <Description>SQLParser is, as the name suggests, a parser/lexer for SQL.</Description>
     <AssemblyTitle>SQLParser</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SQLParser</AssemblyName>
     <PackageId>SQLParser</PackageId>
     <PackageTags>SQL;Databases;T-SQL</PackageTags>
     <PackageProjectUrl>https://github.com/JaCraig/SQLParser</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/JaCraig/SQLParser/blob/master/LICENSE</PackageLicenseUrl>
-    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
-    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.$(BuildNumber)</Version>
+    <Version>2.0.$(BuildNumber)</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.7.1" />
+    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.7.1.1" />
   </ItemGroup>
 
 </Project>
