@@ -47,6 +47,7 @@ namespace SQLParser
         private static void ParseTSQL(string input, IParseTreeListener listener)
         {
             ICharStream Stream = CharStreams.fromstring(input);
+            Stream = new CaseChangingCharStream(Stream);
             ITokenSource Lexer = new TSqlLexer(Stream, TextWriter.Null, TextWriter.Null);
             ITokenStream Tokens = new CommonTokenStream(Lexer);
             TSqlParser Parser = new TSqlParser(Tokens, TextWriter.Null, TextWriter.Null)

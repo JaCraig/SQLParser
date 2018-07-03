@@ -23,7 +23,7 @@ namespace SQLParser.Tests
       ,[OrientationDate_],[FirstName_],[LastName_],[Title_],[MiddleName_]
       ,[NickName_],[Prefix_],[Suffix_],[Active_]
 FROM [User_]
-WHERE [UserName_]=@UserName", TestPrinter, Enums.SQLType.TSql);
+where [UserName_]=@UserName", TestPrinter, Enums.SQLType.TSql);
             Assert.Single(TestPrinter.SearchList);
             Assert.Equal("UserName", TestPrinter.SearchList[0]);
         }
