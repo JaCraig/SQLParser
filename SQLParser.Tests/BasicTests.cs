@@ -27,6 +27,19 @@ where [UserName_]=@UserName", TestPrinter, Enums.SQLType.TSql);
             Assert.Single(TestPrinter.SearchList);
             Assert.Equal("UserName", TestPrinter.SearchList[0]);
         }
+
+        [Fact]
+        public void WhereLikeClause()
+        {
+            var TestPrinter = new WherePrinter();
+            SQLParser.Parser.Parse(@"SELECT [ID_],[UserName_],[StartDate_],[EndDate_],[EmployeeNumber_]
+      ,[OrientationDate_],[FirstName_],[LastName_],[Title_],[MiddleName_]
+      ,[NickName_],[Prefix_],[Suffix_],[Active_]
+FROM [User_]
+where [UserName_] LIKE @UserName+'%'", TestPrinter, Enums.SQLType.TSql);
+            Assert.Single(TestPrinter.SearchList);
+            Assert.Equal("UserName", TestPrinter.SearchList[0]);
+        }
     }
 
     public class Printer : TSqlParserBaseListener
@@ -49,16 +62,12 @@ where [UserName_]=@UserName", TestPrinter, Enums.SQLType.TSql);
 
         public List<string> SearchList { get; set; }
 
-        public override void EnterPredicate([NotNull] TSqlParser.PredicateContext context)
+        public override void EnterExpression([NotNull] TSqlParser.ExpressionContext context)
         {
-            var Expressions = context?.expression();
-            foreach (var Expression in Expressions)
-            {
-                var LocalID = Expression.primitive_expression()?.LOCAL_ID()?.GetText();
-                if (!string.IsNullOrEmpty(LocalID))
-                    SearchList.Add(LocalID.Replace("@", ""));
-            }
-            base.EnterPredicate(context);
+            var LocalID = context?.primitive_expression()?.LOCAL_ID()?.GetText();
+            if (!string.IsNullOrEmpty(LocalID))
+                SearchList.Add(LocalID.Replace("@", ""));
+            base.EnterExpression(context);
         }
     }
 }
