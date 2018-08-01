@@ -13,6 +13,9 @@ namespace SQLParser.Tests
             var TestPrinter = new Printer();
             SQLParser.Parser.Parse("SELECT * FROM Somewhere", TestPrinter, Enums.SQLType.TSql);
             Assert.True(TestPrinter.StatementFound);
+            TestPrinter = new Printer();
+            SQLParser.Parser.Parse("ALTER TABLE [dbo].[SelectOption_] ADD FOREIGN KEY ([User_Creator_ID_]) REFERENCES [dbo].[User_]([ID_])", TestPrinter, Enums.SQLType.TSql);
+            Assert.False(TestPrinter.StatementFound);
         }
 
         [Fact]
