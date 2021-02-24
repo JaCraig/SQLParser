@@ -1,12 +1,24 @@
-﻿using Antlr4.Runtime.Misc;
-using SQLParser.Parsers.TSql;
-using System.Collections.Generic;
-using Xunit;
+﻿using Xunit;
 
 namespace SQLParser.Tests
 {
     public class BasicTests
     {
+        [Fact]
+        public void DDLParseTest()
+        {
+            var TestPrinter = new DDLPrinter();
+            SQLParser.Parser.Parse(@"CREATE TABLE HUB_POLICY
+(
+POLICY_HK BINARY() NOT NULL,
+LOAD_TIMESTAMP TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+RECORD_SOURCE VARCHAR(100) NULL,
+POLICY_NUMBER VARCHAR(50) NULL
+);", TestPrinter, Enums.SQLType.TSql);
+            Assert.Single(TestPrinter.SearchList);
+            Assert.Equal("HUB_POLICY", TestPrinter.SearchList[0]);
+        }
+
         [Fact]
         public void Test()
         {
@@ -42,35 +54,6 @@ FROM [User_]
 where [UserName_] LIKE @UserName+'%'", TestPrinter, Enums.SQLType.TSql);
             Assert.Single(TestPrinter.SearchList);
             Assert.Equal("UserName", TestPrinter.SearchList[0]);
-        }
-    }
-
-    public class Printer : TSqlParserBaseListener
-    {
-        public bool StatementFound { get; set; }
-
-        public override void EnterDml_clause([NotNull] TSqlParser.Dml_clauseContext context)
-        {
-            StatementFound |= context.select_statement() != null;
-            base.EnterDml_clause(context);
-        }
-    }
-
-    public class WherePrinter : TSqlParserBaseListener
-    {
-        public WherePrinter()
-        {
-            SearchList = new List<string>();
-        }
-
-        public List<string> SearchList { get; set; }
-
-        public override void EnterExpression([NotNull] TSqlParser.ExpressionContext context)
-        {
-            var LocalID = context?.primitive_expression()?.LOCAL_ID()?.GetText();
-            if (!string.IsNullOrEmpty(LocalID))
-                SearchList.Add(LocalID.Replace("@", ""));
-            base.EnterExpression(context);
         }
     }
 }
