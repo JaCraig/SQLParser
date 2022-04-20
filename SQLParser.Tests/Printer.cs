@@ -9,7 +9,7 @@ namespace SQLParser.Tests
 
         public override void EnterDml_clause([NotNull] TSqlParser.Dml_clauseContext context)
         {
-            StatementFound |= context.select_statement() != null;
+            StatementFound |= context.select_statement_standalone() != null;
             base.EnterDml_clause(context);
         }
     }

@@ -287,3 +287,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 /ANTLR/TSQL/csharp
+/ANTLR/TSQL/.antlr
