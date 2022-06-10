@@ -10,7 +10,7 @@
     <Description>SQLParser is, as the name suggests, a parser/lexer for SQL.</Description>
     <AssemblyTitle>SQLParser</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SQLParser</AssemblyName>
     <PackageId>SQLParser</PackageId>
