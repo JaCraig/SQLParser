@@ -1,0 +1,5901 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/SQLParser/SQLParser/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.CaseChangingCharStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.CaseChangingCharStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Enums.SQLType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Enums.SQLType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.ITSqlParserListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.ITSqlParserListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlLexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlLexer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.AGGREGATE_WINDOWED_FUNCContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.AGGREGATE_WINDOWED_FUNCContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ANALYTIC_WINDOWED_FUNCContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ANALYTIC_WINDOWED_FUNCContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Add_or_modify_filegroupsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Add_or_modify_filegroupsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Add_or_modify_filesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Add_or_modify_filesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Aggregate_windowed_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Aggregate_windowed_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.AlgorithmContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.AlgorithmContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.All_distinct_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.All_distinct_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_application_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_application_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assemblyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assemblyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_add_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_add_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_asContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_asContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_client_file_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_client_file_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_dropContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_dropContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_drop_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_drop_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_drop_multiple_filesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_drop_multiple_filesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_file_bitsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_file_bitsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_file_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_file_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_from_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_from_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_from_clause_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_from_clause_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_withContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_withContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_with_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_assembly_with_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_asssembly_add_clause_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_asssembly_add_clause_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_asymmetric_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_asymmetric_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_asymmetric_key_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_asymmetric_key_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorizationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorizationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_for_azure_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_for_azure_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_for_parallel_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_for_parallel_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_for_sql_databaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_for_sql_databaseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_authorization_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_availability_groupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_availability_groupContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_availability_group_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_availability_group_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_availability_group_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_availability_group_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_certificateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_certificateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_column_encryption_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_column_encryption_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_credentialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_credentialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_cryptographic_providerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_cryptographic_providerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_databaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_databaseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_db_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_db_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_endpointContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_endpointContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_external_data_sourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_external_data_sourceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_external_libraryContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_external_libraryContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_external_resource_poolContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_external_resource_poolContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_fulltext_catalogContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_fulltext_catalogContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_fulltext_stoplistContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_fulltext_stoplistContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_login_azure_sqlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_login_azure_sqlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_login_azure_sql_dw_and_pdwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_login_azure_sql_dw_and_pdwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_login_sql_serverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_login_sql_serverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_master_key_azure_sqlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_master_key_azure_sqlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_master_key_sql_serverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_master_key_sql_serverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_message_typeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_message_typeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_partition_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_partition_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_partition_schemeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_partition_schemeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_queueContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_queueContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_remote_service_bindingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_remote_service_bindingContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_resource_governorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_resource_governorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_schema_azure_sql_dw_and_pdwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_schema_azure_sql_dw_and_pdwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_schema_sqlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_schema_sqlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_sequenceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_sequenceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_auditContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_auditContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_audit_specificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_audit_specificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_configurationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_configurationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_role_pdwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_server_role_pdwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_serviceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_serviceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_service_master_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_service_master_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_symmetric_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_symmetric_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_userContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_userContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_user_azure_sqlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_user_azure_sqlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_workload_groupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Alter_workload_groupContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Analytic_windowed_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Analytic_windowed_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Another_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Another_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Apply_Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Apply_Context.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.As_column_aliasContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.As_column_aliasContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.As_external_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.As_external_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.As_table_aliasContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.As_table_aliasContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Assembly_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Assembly_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Assignment_operatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Assignment_operatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.AsteriskContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.AsteriskContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Asymmetric_key_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Asymmetric_key_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Asymmetric_key_option_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Asymmetric_key_option_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Asymmetric_key_password_change_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Asymmetric_key_password_change_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Authorization_granteeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Authorization_granteeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Auto_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Auto_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.BINARY_CHECKSUMContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.BINARY_CHECKSUMContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.BUILT_IN_FUNCContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.BUILT_IN_FUNCContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_certificateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_certificateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_databaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_databaseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_logContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_logContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_master_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_master_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_service_master_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_service_master_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Backup_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.BatchContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.BatchContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Batch_level_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Batch_level_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Begin_conversation_dialogContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Begin_conversation_dialogContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Begin_conversation_timerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Begin_conversation_timerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Block_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Block_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Bracket_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Bracket_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Break_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Break_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Built_in_functionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Built_in_functionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Bulk_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Bulk_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CASTContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CASTContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CHECKSUMContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CHECKSUMContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.COALESCEContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.COALESCEContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CONVERTContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CONVERTContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CURRENT_TIMESTAMPContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CURRENT_TIMESTAMPContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CURRENT_USERContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.CURRENT_USERContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Case_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Case_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cfl_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cfl_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_table_changesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_table_changesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_table_versionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_table_versionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_tracking_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_tracking_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_tracking_option_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Change_tracking_option_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Checkpoint_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Checkpoint_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_typeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_typeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_azure_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_azure_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_grantContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_grantContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_parallel_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_parallel_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_sql_databaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Class_type_for_sql_databaseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Client_assembly_specifierContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Client_assembly_specifierContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Close_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Close_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ClusteredContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ClusteredContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Colon_colonContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Colon_colonContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_aliasContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_aliasContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_alias_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_alias_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_constraintContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_constraintContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_declarationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_declarationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_def_table_constraintContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_def_table_constraintContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_def_table_constraintsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_def_table_constraintsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_definitionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_definitionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_elemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_elemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_name_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_name_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_name_list_with_orderContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Column_name_list_with_orderContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Common_table_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Common_table_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Comparison_operatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Comparison_operatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ConstantContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ConstantContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Constant_LOCAL_IDContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Constant_LOCAL_IDContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Constant_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Constant_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Containment_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Containment_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Continue_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Continue_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Contract_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Contract_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Conversation_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Conversation_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_application_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_application_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_assemblyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_assemblyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_asymmetric_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_asymmetric_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_certificateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_certificateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_column_encryption_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_column_encryption_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_column_master_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_column_master_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_columnstore_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_columnstore_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_contractContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_contractContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_credentialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_credentialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_cryptographic_providerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_cryptographic_providerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_databaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_databaseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_database_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_database_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_db_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_db_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_event_notificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_event_notificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_external_libraryContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_external_libraryContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_external_resource_poolContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_external_resource_poolContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_fulltext_catalogContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_fulltext_catalogContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_fulltext_stoplistContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_fulltext_stoplistContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_login_azure_sqlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_login_azure_sqlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_login_pdwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_login_pdwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_login_sql_serverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_login_sql_serverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_master_key_azure_sqlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_master_key_azure_sqlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_master_key_sql_serverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_master_key_sql_serverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_nonclustered_columnstore_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_nonclustered_columnstore_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_broker_priorityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_broker_priorityContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_ddl_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_ddl_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_dml_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_dml_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_event_sessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_event_sessionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_procedureContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_procedureContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_or_alter_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_partition_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_partition_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_partition_schemeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_partition_schemeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_queueContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_queueContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_remote_service_bindingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_remote_service_bindingContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_resource_poolContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_resource_poolContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_routeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_routeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_ruleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_ruleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_schemaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_schemaContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_schema_azure_sql_dw_and_pdwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_schema_azure_sql_dw_and_pdwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_search_property_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_search_property_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_sequenceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_sequenceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_server_auditContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_server_auditContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_server_audit_specificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_server_audit_specificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_server_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_server_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_serviceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_serviceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_statisticsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_statisticsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_synonymContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_synonymContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_typeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_typeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_userContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_userContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_user_azure_sql_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_user_azure_sql_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_viewContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_viewContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_workload_groupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_workload_groupContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_xml_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_xml_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_xml_schema_collectionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Create_xml_schema_collectionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cross_joinContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cross_joinContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cursor_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cursor_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cursor_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cursor_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cursor_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Cursor_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATEADDContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATEADDContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATEDIFFContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATEDIFFContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATENAMEContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATENAMEContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATEPARTContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.DATEPARTContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Data_typeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Data_typeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_file_specContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_file_specContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_filestream_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_filestream_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_mirroring_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_mirroring_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_optionspecContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Database_optionspecContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Date_correlation_optimization_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Date_correlation_optimization_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Date_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Date_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_encryption_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_encryption_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_state_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_state_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_update_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_update_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_user_access_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Db_user_access_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_commandContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_commandContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_specialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dbcc_specialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ddl_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ddl_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ddl_objectContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ddl_objectContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ddl_trigger_operationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ddl_trigger_operationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_cursorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_cursorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_localContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_localContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_set_cursor_commonContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_set_cursor_commonContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_set_cursor_common_partialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_set_cursor_common_partialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Declare_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Decryption_mechanismContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Decryption_mechanismContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Default_valueContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Default_valueContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Delayed_durability_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Delayed_durability_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Delete_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Delete_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Delete_statement_fromContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Delete_statement_fromContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Derived_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Derived_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Disable_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Disable_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dml_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dml_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dml_trigger_operationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dml_trigger_operationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dml_trigger_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Dml_trigger_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_aggregateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_aggregateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_application_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_application_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_assemblyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_assemblyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_asymmetric_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_asymmetric_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_availability_groupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_availability_groupContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_backward_compatible_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_backward_compatible_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_broker_priorityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_broker_priorityContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_certificateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_certificateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_column_encryption_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_column_encryption_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_column_master_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_column_master_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_contractContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_contractContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_credentialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_credentialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_cryptograhic_providerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_cryptograhic_providerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_databaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_databaseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_database_audit_specificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_database_audit_specificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_database_encryption_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_database_encryption_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_database_scoped_credentialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_database_scoped_credentialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_db_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_db_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_ddl_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_ddl_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_defaultContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_defaultContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_dml_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_dml_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_endpointContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_endpointContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_event_notificationsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_event_notificationsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_event_sessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_event_sessionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_data_sourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_data_sourceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_file_formatContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_file_formatContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_libraryContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_libraryContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_resource_poolContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_resource_poolContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_external_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_fulltext_catalogContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_fulltext_catalogContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_fulltext_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_fulltext_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_fulltext_stoplistContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_fulltext_stoplistContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_loginContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_loginContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_master_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_master_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_message_typeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_message_typeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_partition_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_partition_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_partition_schemeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_partition_schemeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_procedureContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_procedureContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_queueContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_queueContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_relational_or_xml_or_spatial_indexContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_relational_or_xml_or_spatial_indexContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_remote_service_bindingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_remote_service_bindingContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_resource_poolContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_resource_poolContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_routeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_routeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_ruleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_ruleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_schemaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_schemaContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_search_property_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_search_property_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_security_policyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_security_policyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_sequenceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_sequenceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_server_auditContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_server_auditContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_server_audit_specificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_server_audit_specificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_server_roleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_server_roleContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_serviceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_serviceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_signatureContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_signatureContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_statisticsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_statisticsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_statistics_name_azure_dw_and_pdwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_statistics_name_azure_dw_and_pdwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_symmetric_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_symmetric_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_synonymContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_synonymContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_typeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_typeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_userContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_userContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_viewContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_viewContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_workload_groupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_workload_groupContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_xml_schema_collectionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Drop_xml_schema_collectionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Empty_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Empty_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Enable_triggerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Enable_triggerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Encryption_mechanismContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Encryption_mechanismContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.End_conversationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.End_conversationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_name_for_azure_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_name_for_azure_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_name_for_parallel_dwContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_name_for_parallel_dwContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_toContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Entity_toContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Event_session_predicate_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Event_session_predicate_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Event_session_predicate_factorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Event_session_predicate_factorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Event_session_predicate_leafContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Event_session_predicate_leafContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_bodyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_bodyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_body_batchContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_body_batchContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_parameterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_parameterContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statement_argContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statement_argContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statement_arg_namedContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statement_arg_namedContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statement_arg_unnamedContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_statement_arg_unnamedContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_var_stringContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Execute_var_stringContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Exist_callContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Exist_callContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Exist_methodContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Exist_methodContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Existing_keysContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Existing_keysContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ExpressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ExpressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Expression_elemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Expression_elemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Expression_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Expression_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.External_access_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.External_access_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.FREE_TEXTContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.FREE_TEXTContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Fetch_cursorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Fetch_cursorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_directory_path_separatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_directory_path_separatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_groupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_groupContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_pathContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_pathContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_sizeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_sizeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_specContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.File_specContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Filegroup_updatability_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Filegroup_updatability_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.FilespecContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.FilespecContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.For_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.For_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Freetext_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Freetext_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Freetext_predicateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Freetext_predicateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Full_column_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Full_column_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Full_column_name_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Full_column_name_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Full_table_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Full_table_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_body_returns_scalarContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_body_returns_scalarContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_body_returns_selectContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_body_returns_selectContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_body_returns_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_body_returns_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_proc_name_database_schemaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_proc_name_database_schemaContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_proc_name_schemaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_proc_name_schemaContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_proc_name_server_database_schemaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Func_proc_name_server_database_schemaContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Function_callContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Function_callContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Function_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Function_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.GETDATEContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.GETDATEContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.GETUTCDATEContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.GETUTCDATEContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Generate_new_keysContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Generate_new_keysContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Get_conversationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Get_conversationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Go_batch_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Go_batch_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Go_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Go_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Goto_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Goto_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Grant_permissionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Grant_permissionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Group_by_itemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Group_by_itemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Hadr_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Hadr_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.HostContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.HostContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.IDENTITYContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.IDENTITYContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.IIFContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.IIFContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ISNULLContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.ISNULLContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Id_Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Id_Context.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Id_or_stringContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Id_or_stringContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.If_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.If_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Index_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Index_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Index_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Index_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Index_valueContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Index_valueContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_column_idContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_column_idContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_column_name_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_column_name_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_statement_valueContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_statement_valueContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_with_table_hintsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Insert_with_table_hintsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ip_v4_failoverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ip_v4_failoverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ip_v6_failoverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ip_v6_failoverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Join_onContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Join_onContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Join_partContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Join_partContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Json_column_declarationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Json_column_declarationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Json_declarationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Json_declarationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Key_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Key_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.KeywordContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.KeywordContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_processContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_processContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_query_notificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_query_notificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_stats_jobContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Kill_stats_jobContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Local_driveContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Local_driveContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Local_fileContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Local_fileContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Lock_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Lock_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Low_priority_lock_waitContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Low_priority_lock_waitContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.MIN_ACTIVE_ROWVERSIONContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.MIN_ACTIVE_ROWVERSIONContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Materialized_column_definitionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Materialized_column_definitionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Merge_matchedContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Merge_matchedContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Merge_not_matchedContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Merge_not_matchedContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Merge_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Merge_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Message_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Message_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_host_port_seperatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_host_port_seperatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_partnerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_partnerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_set_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_set_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_witnessContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mirroring_witnessContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mixed_page_allocation_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Mixed_page_allocation_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Modify_callContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Modify_callContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Modify_methodContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Modify_methodContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Multiple_local_file_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Multiple_local_file_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Multiple_local_filesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Multiple_local_filesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.NULLIFContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.NULLIFContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Network_computerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Network_computerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Network_file_shareContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Network_file_shareContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Network_file_startContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Network_file_startContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Nodes_methodContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Nodes_methodContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Null_notnullContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Null_notnullContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Null_or_defaultContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Null_or_defaultContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.On_deleteContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.On_deleteContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.On_offContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.On_offContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.On_updateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.On_updateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Open_jsonContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Open_jsonContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Open_keyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Open_keyContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Open_xmlContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Open_xmlContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.OpendatasourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.OpendatasourceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.OpenqueryContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.OpenqueryContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Optimize_for_argContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Optimize_for_argContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.OptionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.OptionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Option_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Option_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Order_by_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Order_by_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Order_by_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Order_by_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Output_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Output_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Output_dml_list_elemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Output_dml_list_elemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Over_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Over_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.PARTITION_FUNCContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.PARTITION_FUNCContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Parameterization_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Parameterization_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partition_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partition_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partner_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partner_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partner_serverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partner_serverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partner_server_tcp_prefixContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Partner_server_tcp_prefixContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.PivotContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.PivotContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Pivot_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Pivot_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Port_numberContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Port_numberContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.PredicateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.PredicateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Primitive_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Primitive_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Principal_idContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Principal_idContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Print_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Print_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Private_key_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Private_key_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Procedure_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Procedure_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Procedure_paramContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Procedure_paramContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_callContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_callContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_methodContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_methodContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_specificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Query_specificationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_actionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_actionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_idContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_idContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_rebuild_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_rebuild_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_settingsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Queue_settingsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.RANKING_WINDOWED_FUNCContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.RANKING_WINDOWED_FUNCContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Raiseerror_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Raiseerror_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ranking_windowed_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Ranking_windowed_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Rebuild_partitionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Rebuild_partitionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Receive_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Receive_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Reconfigure_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Reconfigure_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Recovery_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Recovery_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Return_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Return_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Row_or_range_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Row_or_range_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Rowset_functionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Rowset_functionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Rowset_function_limitedContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Rowset_function_limitedContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SCALAR_FUNCTIONContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SCALAR_FUNCTIONContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SESSION_USERContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SESSION_USERContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.STRINGAGGContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.STRINGAGGContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.STUFFContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.STUFFContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SYSTEM_USERContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SYSTEM_USERContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Scalar_function_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Scalar_function_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Schema_declarationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Schema_declarationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Search_conditionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Search_conditionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Security_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Security_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_list_elemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_list_elemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_statement_standaloneContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Select_statement_standaloneContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Send_conversationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Send_conversationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Service_broker_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Service_broker_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Service_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Service_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Set_specialContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Set_specialContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Set_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Set_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Setuser_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Setuser_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Shutdown_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Shutdown_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SignContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SignContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Simple_idContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Simple_idContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Simple_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Simple_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Snapshot_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Snapshot_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Special_listContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Special_listContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Sql_clausesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Sql_clausesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Sql_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Sql_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Sql_unionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Sql_unionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SubqueryContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.SubqueryContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Switch_partitionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Switch_partitionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Switch_search_condition_sectionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Switch_search_condition_sectionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Switch_sectionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Switch_sectionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.TRY_CASTContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.TRY_CASTContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_aliasContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_aliasContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_constraintContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_constraintContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_hintContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_hintContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_indicesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_indicesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_nameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_nameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_name_with_hintContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_name_with_hintContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_optionsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_optionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_sourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_sourceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_source_itemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_source_itemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_source_item_joinedContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_source_item_joinedContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_sourcesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_sourcesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_type_definitionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_type_definitionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_type_indicesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_type_indicesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_value_constructorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Table_value_constructorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Target_recovery_time_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Target_recovery_time_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.TerminationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.TerminationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_error_numberContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_error_numberContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_messageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_messageContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_stateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_stateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Throw_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.TimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.TimeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Time_zoneContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Time_zoneContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Top_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Top_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Top_countContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Top_countContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Top_percentContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Top_percentContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Transaction_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Transaction_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Truncate_tableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Truncate_tableContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Try_catch_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Try_catch_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Tsql_fileContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Tsql_fileContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.USERContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.USERContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Udt_elemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Udt_elemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Udt_method_argumentsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Udt_method_argumentsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Unary_operator_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Unary_operator_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.UnpivotContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.UnpivotContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Unpivot_clauseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Unpivot_clauseContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_elemContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_elemContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_elem_mergeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_elem_mergeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_statisticsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Update_statisticsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Use_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Use_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Value_callContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Value_callContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Value_methodContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Value_methodContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.View_attributeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.View_attributeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Waitfor_conversationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Waitfor_conversationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Waitfor_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Waitfor_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.When_matchesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.When_matchesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.While_statementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.While_statementContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_boundContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_boundContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_extentContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_extentContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_followingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_followingContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_precedingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Window_frame_precedingContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.With_expressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.With_expressionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.With_table_hintsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.With_table_hintsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Witness_optionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Witness_optionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Witness_partner_equalContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Witness_partner_equalContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Witness_serverContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Witness_serverContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.XML_DATA_TYPE_FUNCContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.XML_DATA_TYPE_FUNCContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_common_directivesContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_common_directivesContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_data_type_methodsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_data_type_methodsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_declarationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_declarationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_schema_collectionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_schema_collectionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_type_definitionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.Xml_type_definitionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.TSqlParserBaseListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.TSqlParserBaseListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.Parsers.TSql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.Parsers.TSql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SQLParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SQLParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
