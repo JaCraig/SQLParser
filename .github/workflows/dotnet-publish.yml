@@ -1,0 +1,85 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET Publish
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    env:
+      BUILD_CONFIG: 'Release'
+      SOLUTION: 'FastActivator.sln'
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dotnet-version: [ '6.0.x' ]
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    
+    - name: Setup .NET SDK ${{ matrix.dotnet-version }}
+      uses: actions/setup-dotnet@v3.2.0
+      with:
+        dotnet-version: ${{ matrix.dotnet-version }}
+        
+    - name: Install Versionize
+      run: dotnet tool install --global Versionize
+    
+    - name: Setup git
+      run: |
+            git config --local user.email "JaCraig@users.noreply.github.com"
+            git config --local user.name "James Craig"
+            
+    - name: Versionize Release
+      id: versionize
+      run: versionize --changelog-all --exit-insignificant-commits
+      continue-on-error: true
+      
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build --no-restore --configuration $BUILD_CONFIG
+      
+    - name: Test
+      run: dotnet test /p:Configuration=$BUILD_CONFIG --no-build --verbosity normal --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
+    
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
+      with:
+        name: dotnet-results-${{ matrix.dotnet-version }}
+        path: TestResults-${{ matrix.dotnet-version }}
+      if: ${{ always() }}
+      
+    - name: Upload NuGet package
+      uses: actions/upload-artifact@v3
+      with:
+        name: NugetPackage
+        path: ./**/*.nupkg
+      if: steps.versionize.outcome == 'success'
+      
+    - name: Upload Symbol package
+      uses: actions/upload-artifact@v3
+      with:
+        name: SymbolPackage
+        path: ./**/*.snupkg
+      if: steps.versionize.outcome == 'success'
+
+    - name: Push changes to Github
+      if: steps.versionize.outcome == 'success'
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        branch: ${{ github.ref }}
+        force: true
+        tags: true
+    
+    - name: Upload package to NuGet
+      if: steps.versionize.outcome == 'success'
+      run: dotnet nuget push "**/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
