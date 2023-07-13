@@ -13,3 +13,7 @@ updates:
       prefix: "fix"
     ignore:
       - dependency-name: "Mecha.xUnit"
+    groups:
+      dependencies:
+        patterns: 
+          - "*"
