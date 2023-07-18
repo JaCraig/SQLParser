@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLParser", "SQLParser\SQLP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLParser.Tests", "SQLParser.Tests\SQLParser.Tests.csproj", "{F8471E63-DECC-4A6C-A7FF-3D141360C6EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLParser.Example", "SQLParser.Example\SQLParser.Example.csproj", "{3EF6A341-E6DC-47A6-BE57-582EF8F318D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLParser.Example", "SQLParser.Example\SQLParser.Example.csproj", "{3EF6A341-E6DC-47A6-BE57-582EF8F318D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DC54B9D-E8DB-4D16-BC98-5832792A0C77}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
