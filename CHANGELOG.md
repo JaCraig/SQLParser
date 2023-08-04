@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.5"></a>
+## [3.0.5](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.5) (2023-8-4)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([30ca5ea](https://www.github.com/JaCraig/SQLParser/commit/30ca5ead3c3f3ddcf7f6dc497ac5e5e9632e5ffe))
+
+### Other
+
+* Merge pull request #5 from JaCraig/dependabot/github_actions/dependencies-0717129e0a ([fd83c19](https://www.github.com/JaCraig/SQLParser/commit/fd83c199b7fe88616e3bc56dc828331158226b03))
+* Merge pull request #6 from JaCraig/dependabot/nuget/dependencies-5bd43afe2e ([9b6f86b](https://www.github.com/JaCraig/SQLParser/commit/9b6f86b9e83a612b3a9e75e6da09fa8f0dbd793b))
+* Adding editorconfig ([0f1e88e](https://www.github.com/JaCraig/SQLParser/commit/0f1e88e05c5db07af46621e254b2efa114534b5c))
+* bump the dependencies group with 2 updates ([69292de](https://www.github.com/JaCraig/SQLParser/commit/69292de4eb6174ea8b2f0bb89a309eb573bd0c5f))
+* dependabot update ([02d0952](https://www.github.com/JaCraig/SQLParser/commit/02d09526232ad73a93e6c765e0d397998b0d1a3e))
+* Update dependabot.yml ([50d2444](https://www.github.com/JaCraig/SQLParser/commit/50d24441aecd91c6bba63e8c342adee93728a4c1))
+
 <a name="3.0.4"></a>
 ## [3.0.4](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.4) (2023-7-10)
 

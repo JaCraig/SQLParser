@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>This C# library provides a SQL parser and lexer implementation using ANTLR. It allows you to parse SQL queries into an abstract syntax tree (AST) and perform various operations on the parsed queries.</Description>
@@ -15,7 +15,7 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>3.0.4</Version>
+    <Version>3.0.5</Version>
     <Title>SQLParser</Title>
     <Copyright>Copyright © James Craig 2017</Copyright>
     <PackageIcon>Icon.png</PackageIcon>
