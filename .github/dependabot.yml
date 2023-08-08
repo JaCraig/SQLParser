@@ -21,7 +21,7 @@ updates:
       - dependency-name: "Microsoft.NET.Test.Sdk"
       - dependency-name: "xunit"
       - dependency-name: "xunit.runner.visualstudio"
-	  
+
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/test/../" # Location of package manifests
     schedule:
@@ -38,7 +38,7 @@ updates:
       - dependency-name: "Microsoft.NET.Test.Sdk"
       - dependency-name: "xunit"
       - dependency-name: "xunit.runner.visualstudio"
-		  
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
