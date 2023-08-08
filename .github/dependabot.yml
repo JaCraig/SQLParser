@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/src/../" # Location of package manifests
+    directory: "/SQLParser/../" # Location of package manifests
     schedule:
       interval: "daily"
     commit-message:
@@ -23,7 +23,7 @@ updates:
       - dependency-name: "xunit.runner.visualstudio"
 
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/test/../" # Location of package manifests
+    directory: "/SQLParser.Tests/../" # Location of package manifests
     schedule:
       interval: "daily"
     commit-message:
