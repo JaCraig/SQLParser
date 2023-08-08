@@ -6,17 +6,39 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/src/../" # Location of package manifests
     schedule:
       interval: "daily"
     commit-message:
       prefix: "fix"
-    ignore:
-      - dependency-name: "Mecha.xUnit"
     groups:
       dependencies:
         patterns: 
           - "*"
+    ignore:
+      - dependency-name: "coverlet.collector"
+      - dependency-name: "Mecha.xUnit"
+      - dependency-name: "Microsoft.NET.Test.Sdk"
+      - dependency-name: "xunit"
+      - dependency-name: "xunit.runner.visualstudio"
+	  
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/test/../" # Location of package manifests
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
+    groups:
+      dependencies:
+        patterns: 
+          - "*"
+    allow:
+      - dependency-name: "coverlet.collector"
+      - dependency-name: "Mecha.xUnit"
+      - dependency-name: "Microsoft.NET.Test.Sdk"
+      - dependency-name: "xunit"
+      - dependency-name: "xunit.runner.visualstudio"
+		  
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
