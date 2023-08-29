@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.7"></a>
+## [3.0.7](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.7) (2023-8-29)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([43adbcf](https://www.github.com/JaCraig/SQLParser/commit/43adbcf76990f743a73d5d8997dc8b5b35a51485))
+
+### Other
+
+* Merge pull request #10 from JaCraig/dependabot/nuget/dependencies-b2585319aa ([fb1d3f2](https://www.github.com/JaCraig/SQLParser/commit/fb1d3f2bb358ea3c41d4ae01620d3dc91fb3a7ba))
+
 <a name="3.0.6"></a>
 ## [3.0.6](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.6) (2023-8-28)
 
