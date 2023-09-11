@@ -21,6 +21,9 @@ updates:
       - dependency-name: "Microsoft.NET.Test.Sdk"
       - dependency-name: "xunit"
       - dependency-name: "xunit.runner.visualstudio"
+      - dependency-name: "Microsoft.CodeAnalysis.NetAnalyzers"
+      - dependency-name: "husky"
+      - dependency-name: "BenchmarkDotNet"
 
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/SQLParser.Tests/" # Location of package manifests
