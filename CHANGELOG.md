@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.13"></a>
+## [3.0.13](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.13) (2023-11-15)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([b8929a0](https://www.github.com/JaCraig/SQLParser/commit/b8929a03798084408a5ec6148b9e003062d4bcba))
+
+### Other
+
+* Merge pull request #24 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-c2c108d172 ([82c3451](https://www.github.com/JaCraig/SQLParser/commit/82c3451e0e671d654d559f9cc90d2a5bf6c4cb1d))
+* Merge pull request #25 from JaCraig/dependabot/nuget/dependencies-0fb29d97ea ([ae86cdd](https://www.github.com/JaCraig/SQLParser/commit/ae86cddd503994773d273e0fa7e6d116ef7f0062))
+* bump the dependencies group in /SQLParser.Tests with 1 update ([7a98242](https://www.github.com/JaCraig/SQLParser/commit/7a98242770d1ba422fc19cea12466d545cba2618))
+
 <a name="3.0.12"></a>
 ## [3.0.12](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.12) (2023-11-06)
 
