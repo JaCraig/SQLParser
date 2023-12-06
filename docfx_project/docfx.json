@@ -61,7 +61,8 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/singulinkfx"
+      "modern",
+      "./templates/mytemplate"
     ],
     "postProcessors": [],
     "keepFileLink": false,
