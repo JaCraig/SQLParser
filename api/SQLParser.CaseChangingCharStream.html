@@ -1,123 +1,135 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
       <title>Class CaseChangingCharStream
  | SQLParser API Reference </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CaseChangingCharStream
  | SQLParser API Reference ">
-      <meta name="generator" content="docfx ">
-  
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-      <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
-      <link rel="stylesheet" href="../styles/singulink.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.json">
-      <meta property="docfx:tocrel" content="toc.json">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
-    </head>
-    <body>
-        <div class="top-navbar">
-            <a class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
 
-            <a class="brand" href="../index.html">
-              <img src="../images/icon.png" alt="SQLParser" class="logomark">
-              <span class="brand-title">SQLParser</span>
-            </a>        </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/icon.png" alt="SQLParser">
+            SQLParser
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <div class="body-content">
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-            <nav id="sidebar" role="navigation">
-                <div class="sidebar">
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-                    <div>
-                      <div class="mobile-hide">
+          <nav id="breadcrumb"></nav>
+        </div>
 
-                        <a class="brand" href="../index.html">
-                          <img src="../images/icon.png" alt="SQLParser" class="logomark">
-                          <span class="brand-title">SQLParser</span>
-                        </a>                      </div>
-
-                      <div class="sidesearch">
-                        <form id="search" role="search" class="search">
-                            <i class="bi bi-search search-icon"></i>
-                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
-                        </form>
-                      </div>
-
-                      <div id="navbar">
-                      </div>
-                    </div>                    <div class="sidebar-item-separator"></div>
-
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
-                </div>
-                <div class="footer">
-  <strong><a href='https://github.com/JaCraig/SQLParser'>Open in Github</a></strong>
-  
-                </div>            </nav>
-
-            <main class="main-panel">
-
-                <div id="search-results" style="display: none;">
-                  <h1 class="search-list">Search Results for <span></span></h1>
-                  <div class="sr-items">
-                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
-                  </div>
-                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
-                </div>
- 
-
-                <div role="main" class="hide-when-search">
-
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-
-                         <div id="contribution">
-                               <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
-                         </div>
-
-                    <article class="content wrap" id="_content" data-uid="SQLParser.CaseChangingCharStream">
+        <article data-uid="SQLParser.CaseChangingCharStream">
 
 
 
-  <h1 id="SQLParser_CaseChangingCharStream" data-uid="SQLParser.CaseChangingCharStream" class="text-break">Class CaseChangingCharStream
-</h1>
-  <div class="markdown level0 summary"><p>Changes the case of the char stream</p>
+  <h1 id="SQLParser_CaseChangingCharStream" data-uid="SQLParser.CaseChangingCharStream" class="text-break">
+    Class CaseChangingCharStream
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SQLParser.html">SQLParser</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SQLParser.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Changes the case of the char stream</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">CaseChangingCharStream</span></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CaseChangingCharStream : ICharStream, IIntStream</code></pre>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">ICharStream</span></div>
-    <div><span class="xref">IIntStream</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CaseChangingCharStream</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICharStream</span></div>
+      <div><span class="xref">IIntStream</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -139,64 +151,61 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SQLParser.html">SQLParser</a></h6>
-  <h6><strong>Assembly</strong>: SQLParser.dll</h6>
-  <h5 id="SQLParser_CaseChangingCharStream_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CaseChangingCharStream : ICharStream, IIntStream</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream__ctor_Antlr4_Runtime_ICharStream_.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.%23ctor(Antlr4.Runtime.ICharStream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L32">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="SQLParser_CaseChangingCharStream__ctor_" data-uid="SQLParser.CaseChangingCharStream.#ctor*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream__ctor_Antlr4_Runtime_ICharStream_" data-uid="SQLParser.CaseChangingCharStream.#ctor(Antlr4.Runtime.ICharStream)">CaseChangingCharStream(ICharStream)</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream__ctor_Antlr4_Runtime_ICharStream_" data-uid="SQLParser.CaseChangingCharStream.#ctor(Antlr4.Runtime.ICharStream)">
+  CaseChangingCharStream(ICharStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SQLParser.CaseChangingCharStream.html">CaseChangingCharStream</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CaseChangingCharStream(ICharStream internalStream)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ICharStream</span></td>
-        <td><span class="parametername">internalStream</span></td>
-        <td><p>The stream.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream__ctor_Antlr4_Runtime_ICharStream__seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_Index.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.Index%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L45">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>internalStream</code> <span class="xref">ICharStream</span></dt>
+    <dd><p>The stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="SQLParser_CaseChangingCharStream_Index_" data-uid="SQLParser.CaseChangingCharStream.Index*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_Index" data-uid="SQLParser.CaseChangingCharStream.Index">Index</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_Index" data-uid="SQLParser.CaseChangingCharStream.Index">
+  Index
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Return the index into the stream of the input symbol referred to by <code>LA(1)</code> .</p>
 <p>
 The behavior of this method is unspecified if no call to an
@@ -205,126 +214,128 @@ stream was constructed.
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Index { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_Index_seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_Size.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.Size%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L53">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SQLParser_CaseChangingCharStream_Size_" data-uid="SQLParser.CaseChangingCharStream.Size*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_Size" data-uid="SQLParser.CaseChangingCharStream.Size">Size</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_Size" data-uid="SQLParser.CaseChangingCharStream.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Returns the total number of symbols in the stream, including a single EOF symbol.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Size { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_Size_remarks">Remarks</h5>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SQLParser_CaseChangingCharStream_Size_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Returns the total number of symbols in the stream, including a single EOF symbol.</p>
 </div>
-  <h5 id="SQLParser_CaseChangingCharStream_Size_seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_SourceName.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.SourceName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L63">View Source</a>
-  </span>
+
+
+
+
   <a id="SQLParser_CaseChangingCharStream_SourceName_" data-uid="SQLParser.CaseChangingCharStream.SourceName*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_SourceName" data-uid="SQLParser.CaseChangingCharStream.SourceName">SourceName</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_SourceName" data-uid="SQLParser.CaseChangingCharStream.SourceName">
+  SourceName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the name of the underlying symbol source.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string SourceName { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_SourceName_remarks">Remarks</h5>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SQLParser_CaseChangingCharStream_SourceName_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Gets the name of the underlying symbol source. This method returns a non-null, non-empty
 string. If such a name is not known, this method returns
 <span class="xref">Antlr4.Runtime.IntStreamConstants.UnknownSourceName</span> .</p>
 </div>
-  <h5 id="SQLParser_CaseChangingCharStream_SourceName_seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_Consume.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.Consume%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L85">View Source</a>
-  </span>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="SQLParser_CaseChangingCharStream_Consume_" data-uid="SQLParser.CaseChangingCharStream.Consume*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_Consume" data-uid="SQLParser.CaseChangingCharStream.Consume">Consume()</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_Consume" data-uid="SQLParser.CaseChangingCharStream.Consume">
+  Consume()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Consumes the current symbol in the stream.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Consume()</code></pre>
   </div>
-  <h5 id="SQLParser_CaseChangingCharStream_Consume_remarks">Remarks</h5>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="SQLParser_CaseChangingCharStream_Consume_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Consumes the current symbol in the stream. This method has the following effects:</p>
 <ul><li><strong>Forward movement:</strong> The value of
 <span class="xref">index()</span> before calling this method is
@@ -336,79 +347,62 @@ preclude the ability to implement filtering streams (e.g.
 <span class="xref">Antlr4.Runtime.CommonTokenStream</span> which distinguishes between "on-channel"
 and "off-channel" tokens).
 </div>
-  <h5 id="SQLParser_CaseChangingCharStream_Consume_seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_GetText_Antlr4_Runtime_Misc_Interval_.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.GetText(Antlr4.Runtime.Misc.Interval)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L101">View Source</a>
-  </span>
+
+
+
+
   <a id="SQLParser_CaseChangingCharStream_GetText_" data-uid="SQLParser.CaseChangingCharStream.GetText*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_GetText_Antlr4_Runtime_Misc_Interval_" data-uid="SQLParser.CaseChangingCharStream.GetText(Antlr4.Runtime.Misc.Interval)">GetText(Interval)</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_GetText_Antlr4_Runtime_Misc_Interval_" data-uid="SQLParser.CaseChangingCharStream.GetText(Antlr4.Runtime.Misc.Interval)">
+  GetText(Interval)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>This method returns the text for a range of characters within this input stream.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GetText(Interval interval)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Interval</span></td>
-        <td><span class="parametername">interval</span></td>
-        <td><p>an interval within the stream</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>the text of the specified interval</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_GetText_Antlr4_Runtime_Misc_Interval__remarks">Remarks</h5>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interval</code> <span class="xref">Interval</span></dt>
+    <dd><p>an interval within the stream</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the text of the specified interval</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SQLParser_CaseChangingCharStream_GetText_Antlr4_Runtime_Misc_Interval__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This method returns the text for a range of characters within this input stream. This
 method is guaranteed to not throw an exception if the specified
 <code class="paramref">interval</code> lies entirely within a marked range. For more information
 about marked ranges, see <span class="xref">Antlr4.Runtime.IIntStream.Mark()</span> .</p>
 </div>
-  <h5 id="SQLParser_CaseChangingCharStream_GetText_Antlr4_Runtime_Misc_Interval__seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_LA_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.LA(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L135">View Source</a>
-  </span>
+
+
+
+
   <a id="SQLParser_CaseChangingCharStream_LA_" data-uid="SQLParser.CaseChangingCharStream.LA*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_LA_System_Int32_" data-uid="SQLParser.CaseChangingCharStream.LA(System.Int32)">LA(int)</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_LA_System_Int32_" data-uid="SQLParser.CaseChangingCharStream.LA(System.Int32)">
+  LA(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the value of the symbol at offset <code class="paramref">i</code> from the current position.
 When <code>i==1</code> , this method returns the value of the current symbol in the stream
 (which is the next symbol to be consumed). When <code>i==-1</code> , this method returns the
@@ -435,55 +429,40 @@ beginning of the stream before calling this method.
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int LA(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_LA_System_Int32__seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_Mark.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.Mark%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L183">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_CaseChangingCharStream_Mark_" data-uid="SQLParser.CaseChangingCharStream.Mark*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_Mark" data-uid="SQLParser.CaseChangingCharStream.Mark">Mark()</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_Mark" data-uid="SQLParser.CaseChangingCharStream.Mark">
+  Mark()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>A mark provides a guarantee that
 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">seek()</a> operations will
 be valid over a &quot;marked range&quot; extending from the index where <code>mark()</code> was called to
@@ -520,41 +499,38 @@ stream.index(); // perform work here... } finally { if (index != -1) {
 stream.seek(index); } stream.release(mark); }</pre>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Mark()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><p>An opaque marker which should be passed to
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>An opaque marker which should be passed to
 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">release()</a> when the
 marked range is no longer required.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_Mark_seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_Release_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.Release(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L200">View Source</a>
-  </span>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_CaseChangingCharStream_Release_" data-uid="SQLParser.CaseChangingCharStream.Release*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_Release_System_Int32_" data-uid="SQLParser.CaseChangingCharStream.Release(System.Int32)">Release(int)</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_Release_System_Int32_" data-uid="SQLParser.CaseChangingCharStream.Release(System.Int32)">
+  Release(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>This method releases a marked range created by a call to
 <span class="xref">mark()</span> . Calls to <code>release()</code>
 must appear in the reverse order of the corresponding calls to <code>mark()</code> . If a mark
@@ -565,41 +541,42 @@ For more information and an example, see <span class="xref">Antlr4.Runtime.IIntS
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Release(int marker)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">marker</span></td>
-        <td><p>A marker returned by a call to <code>mark()</code> .</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_Release_System_Int32__seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">Mark</span>()</div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_CaseChangingCharStream_Seek_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.CaseChangingCharStream.Seek(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L223">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>marker</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A marker returned by a call to <code>mark()</code> .</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><span class="xref">Mark</span>()</div>
+    </dd>
+  </dl>
+
+
   <a id="SQLParser_CaseChangingCharStream_Seek_" data-uid="SQLParser.CaseChangingCharStream.Seek*"></a>
-  <h4 id="SQLParser_CaseChangingCharStream_Seek_System_Int32_" data-uid="SQLParser.CaseChangingCharStream.Seek(System.Int32)">Seek(int)</h4>
+
+  <h3 id="SQLParser_CaseChangingCharStream_Seek_System_Int32_" data-uid="SQLParser.CaseChangingCharStream.Seek(System.Int32)">
+  Seek(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Set the input cursor to the position indicated by <code class="paramref">index</code> . If the
 specified index lies past the end of the stream, the operation behaves as though
 <code class="paramref">index</code> was the index of the EOF symbol. After this method returns
@@ -617,63 +594,56 @@ unspecified if no call to an <span class="xref">initializing
     method</span> has occurred after this stream was constructed.
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Seek(int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>The absolute index to seek to.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SQLParser_CaseChangingCharStream_Seek_System_Int32__seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">ICharStream</span></div>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">Antlr4.Runtime.ICharStream</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.IIntStream</span>
-  </div>
-  <h3 id="seealso">See Also</h3>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The absolute index to seek to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="seealso">See Also</h2>
   <div class="seealso">
       <div><span class="xref">ICharStream</span></div>
   </div>
 
 </article>
-                </div>
 
-                <div class="copyright-footer">
-                    <span>&#169; James Craig. All rights reserved.</span>
-                </div>
-            </main>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/CaseChangingCharStream.cs/#L26" class="edit-link">Edit this page</a>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
-        <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
-        <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong><a href='https://github.com/JaCraig/SQLParser'>Open in Github</a></strong>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

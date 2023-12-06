@@ -3,9 +3,9 @@
   <div>
     <div class="sidefilter">
       <form class="toc-filter">
-        <i class="bi bi-funnel-fill filter-icon"></i>
-        <i id="toc_filter_clear" class="bi bi-x-lg clear-icon"></i>
-        <input type="text" id="toc_filter_input" placeholder="Filter by title" autocomplete="off" onkeypress="if(event.keyCode==13) {return false;}">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Filter by title" onkeypress="if(event.keyCode==13) {return false;}">
       </form>
     </div>
     <div class="sidetoc">
@@ -13,8 +13,7 @@
 
           <ul class="nav level1">
                 <li>
-                      <a href="intro.html" class="sidebar-item" name="" title="Example">Example</a>
-        
+                    <a href="intro.html" name="" title="Example">Example</a>
                 </li>
           </ul>
       </div>

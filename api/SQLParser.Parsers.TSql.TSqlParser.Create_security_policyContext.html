@@ -1,126 +1,138 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
       <title>Class TSqlParser.Create_security_policyContext
  | SQLParser API Reference </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TSqlParser.Create_security_policyContext
  | SQLParser API Reference ">
-      <meta name="generator" content="docfx ">
-  
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-      <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
-      <link rel="stylesheet" href="../styles/singulink.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.json">
-      <meta property="docfx:tocrel" content="toc.json">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
-    </head>
-    <body>
-        <div class="top-navbar">
-            <a class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
 
-            <a class="brand" href="../index.html">
-              <img src="../images/icon.png" alt="SQLParser" class="logomark">
-              <span class="brand-title">SQLParser</span>
-            </a>        </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/icon.png" alt="SQLParser">
+            SQLParser
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <div class="body-content">
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-            <nav id="sidebar" role="navigation">
-                <div class="sidebar">
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-                    <div>
-                      <div class="mobile-hide">
+          <nav id="breadcrumb"></nav>
+        </div>
 
-                        <a class="brand" href="../index.html">
-                          <img src="../images/icon.png" alt="SQLParser" class="logomark">
-                          <span class="brand-title">SQLParser</span>
-                        </a>                      </div>
-
-                      <div class="sidesearch">
-                        <form id="search" role="search" class="search">
-                            <i class="bi bi-search search-icon"></i>
-                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
-                        </form>
-                      </div>
-
-                      <div id="navbar">
-                      </div>
-                    </div>                    <div class="sidebar-item-separator"></div>
-
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
-                </div>
-                <div class="footer">
-  <strong><a href='https://github.com/JaCraig/SQLParser'>Open in Github</a></strong>
-  
-                </div>            </nav>
-
-            <main class="main-panel">
-
-                <div id="search-results" style="display: none;">
-                  <h1 class="search-list">Search Results for <span></span></h1>
-                  <div class="sr-items">
-                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
-                  </div>
-                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
-                </div>
- 
-
-                <div role="main" class="hide-when-search">
-
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-
-                         <div id="contribution">
-                               <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
-                         </div>
-
-                    <article class="content wrap" id="_content" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext">
+        <article data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext">
 
 
 
-  <h1 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext" class="text-break">Class TSqlParser.Create_security_policyContext
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">RuleContext</span></div>
-    <div class="level2"><span class="xref">ParserRuleContext</span></div>
-    <div class="level3"><span class="xref">TSqlParser.Create_security_policyContext</span></div>
+  <h1 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext" class="text-break">
+    Class TSqlParser.Create_security_policyContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30092"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SQLParser.html">SQLParser</a>.<a class="xref" href="SQLParser.Parsers.html">Parsers</a>.<a class="xref" href="SQLParser.Parsers.TSql.html">TSql</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SQLParser.dll</dd></dl>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IRuleNode</span></div>
-    <div><span class="xref">IParseTree</span></div>
-    <div><span class="xref">ISyntaxTree</span></div>
-    <div><span class="xref">ITree</span></div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TSqlParser.Create_security_policyContext : ParserRuleContext, IRuleNode, IParseTree, ISyntaxTree, ITree</code></pre>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RuleContext</span></div>
+      <div><span class="xref">ParserRuleContext</span></div>
+      <div><span class="xref">TSqlParser.Create_security_policyContext</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IRuleNode</span></div>
+      <div><span class="xref">IParseTree</span></div>
+      <div><span class="xref">ISyntaxTree</span></div>
+      <div><span class="xref">ITree</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <span class="xref">ParserRuleContext.EMPTY</span>
     </div>
@@ -256,1926 +268,1770 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SQLParser.html">SQLParser</a>.<a class="xref" href="SQLParser.Parsers.html">Parsers</a>.<a class="xref" href="SQLParser.Parsers.TSql.html">TSql</a></h6>
-  <h6><strong>Assembly</strong>: SQLParser.dll</h6>
-  <h5 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TSqlParser.Create_security_policyContext : ParserRuleContext, IRuleNode, IParseTree, ISyntaxTree, ITree</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext__ctor_Antlr4_Runtime_ParserRuleContext_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.%23ctor(Antlr4.Runtime.ParserRuleContext%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30176">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext__ctor_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.#ctor*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext__ctor_Antlr4_Runtime_ParserRuleContext_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.#ctor(Antlr4.Runtime.ParserRuleContext,System.Int32)">Create_security_policyContext(ParserRuleContext, int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext__ctor_Antlr4_Runtime_ParserRuleContext_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.#ctor(Antlr4.Runtime.ParserRuleContext,System.Int32)">
+  Create_security_policyContext(ParserRuleContext, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Create_security_policyContext(ParserRuleContext parent, int invokingState)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ParserRuleContext</span></td>
-        <td><span class="parametername">parent</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">invokingState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_column_name_or_arguments.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.column_name_or_arguments%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30097">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_column_name_or_arguments" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.column_name_or_arguments">column_name_or_arguments</h4>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">ParserRuleContext</span></dt>
+    <dd></dd>
+    <dt><code>invokingState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_column_name_or_arguments" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.column_name_or_arguments">
+  column_name_or_arguments
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30097"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context column_name_or_arguments</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_name.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30099">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.name">name</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.name">
+  name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30099"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context name</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_schema_name.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.schema_name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30093">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_schema_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.schema_name">schema_name</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_schema_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.schema_name">
+  schema_name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30093"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context schema_name</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_security_policy_name.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.security_policy_name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30094">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_security_policy_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.security_policy_name">security_policy_name</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_security_policy_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.security_policy_name">
+  security_policy_name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30094"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context security_policy_name</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_security_predicate_function_name.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.security_predicate_function_name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30096">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_security_predicate_function_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.security_predicate_function_name">security_predicate_function_name</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_security_predicate_function_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.security_predicate_function_name">
+  security_predicate_function_name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30096"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context security_predicate_function_name</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_table_schema_name.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.table_schema_name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30098">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_table_schema_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.table_schema_name">table_schema_name</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_table_schema_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.table_schema_name">
+  table_schema_name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30098"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context table_schema_name</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_tvf_schema_name.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.tvf_schema_name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30095">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_tvf_schema_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.tvf_schema_name">tvf_schema_name</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_tvf_schema_name" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.tvf_schema_name">
+  tvf_schema_name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30095"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context tvf_schema_name</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RuleIndex.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RuleIndex%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30180">View Source</a>
-  </span>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RuleIndex_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RuleIndex*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RuleIndex" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RuleIndex">RuleIndex</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RuleIndex" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RuleIndex">
+  RuleIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override int RuleIndex { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Antlr4.Runtime.RuleContext.RuleIndex</span></div>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30113">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD">ADD()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD">
+  ADD()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] ADD()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30114">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD(System.Int32)">ADD(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ADD_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ADD(System.Int32)">
+  ADD(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode ADD(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30147">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER">AFTER()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER">
+  AFTER()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] AFTER()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30148">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER(System.Int32)">AFTER(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_AFTER_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.AFTER(System.Int32)">
+  AFTER(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode AFTER(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30151">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE">BEFORE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE">
+  BEFORE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] BEFORE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30152">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE(System.Int32)">BEFORE(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BEFORE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BEFORE(System.Int32)">
+  BEFORE(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode BEFORE(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30160">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK">BLOCK()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK">
+  BLOCK()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] BLOCK()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30161">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK(System.Int32)">BLOCK(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_BLOCK_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.BLOCK(System.Int32)">
+  BLOCK(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode BLOCK(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30143">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA">COMMA()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA">
+  COMMA()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] COMMA()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30144">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA(System.Int32)">COMMA(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_COMMA_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.COMMA(System.Int32)">
+  COMMA(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode COMMA(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_CREATE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.CREATE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30100">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_CREATE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.CREATE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_CREATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.CREATE">CREATE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_CREATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.CREATE">
+  CREATE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode CREATE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30172">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE">DELETE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE">
+  DELETE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] DELETE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30173">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE(System.Int32)">DELETE(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DELETE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DELETE(System.Int32)">
+  DELETE(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode DELETE(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30109">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT">DOT()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT">
+  DOT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] DOT()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30110">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT(System.Int32)">DOT(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_DOT_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.DOT(System.Int32)">
+  DOT(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode DOT(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EQUAL.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EQUAL%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30135">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EQUAL_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EQUAL*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EQUAL" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EQUAL">EQUAL()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EQUAL" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EQUAL">
+  EQUAL()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode EQUAL()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EnterRule_Antlr4_Runtime_Tree_IParseTreeListener_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30181">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EnterRule_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EnterRule*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EnterRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)">EnterRule(IParseTreeListener)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_EnterRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)">
+  EnterRule(IParseTreeListener)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void EnterRule(IParseTreeListener listener)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IParseTreeListener</span></td>
-        <td><span class="parametername">listener</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Antlr4.Runtime.ParserRuleContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ExitRule_Antlr4_Runtime_Tree_IParseTreeListener_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30186">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>listener</code> <span class="xref">IParseTreeListener</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ExitRule_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ExitRule*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ExitRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)">ExitRule(IParseTreeListener)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ExitRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)">
+  ExitRule(IParseTreeListener)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void ExitRule(IParseTreeListener listener)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IParseTreeListener</span></td>
-        <td><span class="parametername">listener</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Antlr4.Runtime.ParserRuleContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30156">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>listener</code> <span class="xref">IParseTreeListener</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER">FILTER()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER">
+  FILTER()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] FILTER()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30157">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER(System.Int32)">FILTER(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FILTER_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FILTER(System.Int32)">
+  FILTER(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode FILTER(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FOR.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FOR%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30137">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FOR_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FOR*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FOR" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FOR">FOR()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_FOR" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.FOR">
+  FOR()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode FOR()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30164">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT">INSERT()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT">
+  INSERT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] INSERT()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30165">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT(System.Int32)">INSERT(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_INSERT_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.INSERT(System.Int32)">
+  INSERT(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode INSERT(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30121">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET">LR_BRACKET()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET">
+  LR_BRACKET()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] LR_BRACKET()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30122">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET(System.Int32)">LR_BRACKET(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_LR_BRACKET_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.LR_BRACKET(System.Int32)">
+  LR_BRACKET(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode LR_BRACKET(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_NOT.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.NOT%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30136">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_NOT_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.NOT*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_NOT" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.NOT">NOT()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_NOT" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.NOT">
+  NOT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode NOT()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30139">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF">OFF()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF">
+  OFF()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] OFF()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30140">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF(System.Int32)">OFF(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_OFF_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.OFF(System.Int32)">
+  OFF(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode OFF(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30129">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON">ON()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON">
+  ON()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] ON()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30130">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON(System.Int32)">ON(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_ON_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.ON(System.Int32)">
+  ON(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode ON(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_POLICY.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.POLICY%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30102">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_POLICY_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.POLICY*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_POLICY" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.POLICY">POLICY()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_POLICY" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.POLICY">
+  POLICY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode POLICY()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30117">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE">PREDICATE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE">
+  PREDICATE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] PREDICATE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30118">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE(System.Int32)">PREDICATE(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_PREDICATE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.PREDICATE(System.Int32)">
+  PREDICATE(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode PREDICATE(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_REPLICATION.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.REPLICATION%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30138">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_REPLICATION_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.REPLICATION*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_REPLICATION" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.REPLICATION">REPLICATION()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_REPLICATION" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.REPLICATION">
+  REPLICATION()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode REPLICATION()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30125">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET">RR_BRACKET()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET">
+  RR_BRACKET()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] RR_BRACKET()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30126">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET(System.Int32)">RR_BRACKET(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_RR_BRACKET_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.RR_BRACKET(System.Int32)">
+  RR_BRACKET(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode RR_BRACKET(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SCHEMABINDING.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SCHEMABINDING%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30155">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SCHEMABINDING_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SCHEMABINDING*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SCHEMABINDING" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SCHEMABINDING">SCHEMABINDING()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SCHEMABINDING" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SCHEMABINDING">
+  SCHEMABINDING()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode SCHEMABINDING()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SECURITY.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SECURITY%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30101">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SECURITY_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SECURITY*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SECURITY" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SECURITY">SECURITY()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_SECURITY" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.SECURITY">
+  SECURITY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode SECURITY()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_STATE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.STATE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30134">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_STATE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.STATE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_STATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.STATE">STATE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_STATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.STATE">
+  STATE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode STATE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30168">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE">UPDATE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE">
+  UPDATE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] UPDATE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30169">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE(System.Int32)">UPDATE(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_UPDATE_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.UPDATE(System.Int32)">
+  UPDATE(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode UPDATE(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_WITH.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.WITH%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30133">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_WITH_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.WITH*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_WITH" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.WITH">WITH()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_WITH" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.WITH">
+  WITH()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode WITH()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30103">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id__" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_">id_()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_">
+  id_()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context[] id_()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id__System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30106">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id__" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id__System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_(System.Int32)">id_(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_Create_security_policyContext_id__System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.Create_security_policyContext.id_(System.Int32)">
+  id_(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Id_Context id_(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.IRuleNode</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.IParseTree</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.ISyntaxTree</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.ITree</span>
-  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Id_Context.html">Id_Context</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
-                </div>
 
-                <div class="copyright-footer">
-                    <span>&#169; James Craig. All rights reserved.</span>
-                </div>
-            </main>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L30092" class="edit-link">Edit this page</a>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
-        <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
-        <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong><a href='https://github.com/JaCraig/SQLParser'>Open in Github</a></strong>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,126 +1,138 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
       <title>Class TSqlParser.OptionContext
  | SQLParser API Reference </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TSqlParser.OptionContext
  | SQLParser API Reference ">
-      <meta name="generator" content="docfx ">
-  
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-      <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
-      <link rel="stylesheet" href="../styles/singulink.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.json">
-      <meta property="docfx:tocrel" content="toc.json">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
-    </head>
-    <body>
-        <div class="top-navbar">
-            <a class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
 
-            <a class="brand" href="../index.html">
-              <img src="../images/icon.png" alt="SQLParser" class="logomark">
-              <span class="brand-title">SQLParser</span>
-            </a>        </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/icon.png" alt="SQLParser">
+            SQLParser
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <div class="body-content">
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-            <nav id="sidebar" role="navigation">
-                <div class="sidebar">
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-                    <div>
-                      <div class="mobile-hide">
+          <nav id="breadcrumb"></nav>
+        </div>
 
-                        <a class="brand" href="../index.html">
-                          <img src="../images/icon.png" alt="SQLParser" class="logomark">
-                          <span class="brand-title">SQLParser</span>
-                        </a>                      </div>
-
-                      <div class="sidesearch">
-                        <form id="search" role="search" class="search">
-                            <i class="bi bi-search search-icon"></i>
-                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
-                        </form>
-                      </div>
-
-                      <div id="navbar">
-                      </div>
-                    </div>                    <div class="sidebar-item-separator"></div>
-
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
-                </div>
-                <div class="footer">
-  <strong><a href='https://github.com/JaCraig/SQLParser'>Open in Github</a></strong>
-  
-                </div>            </nav>
-
-            <main class="main-panel">
-
-                <div id="search-results" style="display: none;">
-                  <h1 class="search-list">Search Results for <span></span></h1>
-                  <div class="sr-items">
-                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
-                  </div>
-                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
-                </div>
- 
-
-                <div role="main" class="hide-when-search">
-
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-
-                         <div id="contribution">
-                               <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
-                         </div>
-
-                    <article class="content wrap" id="_content" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext">
+        <article data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext">
 
 
 
-  <h1 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext" class="text-break">Class TSqlParser.OptionContext
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">RuleContext</span></div>
-    <div class="level2"><span class="xref">ParserRuleContext</span></div>
-    <div class="level3"><span class="xref">TSqlParser.OptionContext</span></div>
+  <h1 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext" class="text-break">
+    Class TSqlParser.OptionContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95248"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SQLParser.html">SQLParser</a>.<a class="xref" href="SQLParser.Parsers.html">Parsers</a>.<a class="xref" href="SQLParser.Parsers.TSql.html">TSql</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SQLParser.dll</dd></dl>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IRuleNode</span></div>
-    <div><span class="xref">IParseTree</span></div>
-    <div><span class="xref">ISyntaxTree</span></div>
-    <div><span class="xref">ITree</span></div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TSqlParser.OptionContext : ParserRuleContext, IRuleNode, IParseTree, ISyntaxTree, ITree</code></pre>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RuleContext</span></div>
+      <div><span class="xref">ParserRuleContext</span></div>
+      <div><span class="xref">TSqlParser.OptionContext</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IRuleNode</span></div>
+      <div><span class="xref">IParseTree</span></div>
+      <div><span class="xref">ISyntaxTree</span></div>
+      <div><span class="xref">ITree</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <span class="xref">ParserRuleContext.EMPTY</span>
     </div>
@@ -256,1362 +268,1363 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SQLParser.html">SQLParser</a>.<a class="xref" href="SQLParser.Parsers.html">Parsers</a>.<a class="xref" href="SQLParser.Parsers.TSql.html">TSql</a></h6>
-  <h6><strong>Assembly</strong>: SQLParser.dll</h6>
-  <h5 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TSqlParser.OptionContext : ParserRuleContext, IRuleNode, IParseTree, ISyntaxTree, ITree</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext__ctor_Antlr4_Runtime_ParserRuleContext_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.%23ctor(Antlr4.Runtime.ParserRuleContext%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95293">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext__ctor_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.#ctor*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext__ctor_Antlr4_Runtime_ParserRuleContext_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.#ctor(Antlr4.Runtime.ParserRuleContext,System.Int32)">OptionContext(ParserRuleContext, int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext__ctor_Antlr4_Runtime_ParserRuleContext_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.#ctor(Antlr4.Runtime.ParserRuleContext,System.Int32)">
+  OptionContext(ParserRuleContext, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public OptionContext(ParserRuleContext parent, int invokingState)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ParserRuleContext</span></td>
-        <td><span class="parametername">parent</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">invokingState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_of_processors.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_of_processors%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95250">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_of_processors" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_of_processors">number_of_processors</h4>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">ParserRuleContext</span></dt>
+    <dd></dd>
+    <dt><code>invokingState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_of_processors" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_of_processors">
+  number_of_processors
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IToken number_of_processors</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_recursion.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_recursion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95251">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_recursion" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_recursion">number_recursion</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IToken</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_recursion" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_recursion">
+  number_recursion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IToken number_recursion</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_rows.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_rows%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95249">View Source</a>
-  </span>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_rows" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_rows">number_rows</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IToken</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_number_rows" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.number_rows">
+  number_rows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IToken number_rows</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_RuleIndex.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.RuleIndex%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95297">View Source</a>
-  </span>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IToken</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RuleIndex_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RuleIndex*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RuleIndex" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RuleIndex">RuleIndex</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RuleIndex" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RuleIndex">
+  RuleIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override int RuleIndex { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Antlr4.Runtime.RuleContext.RuleIndex</span></div>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95281">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA">COMMA()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA">
+  COMMA()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode[] COMMA()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95282">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA(System.Int32)">COMMA(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_COMMA_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.COMMA(System.Int32)">
+  COMMA(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode COMMA(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_CONCAT.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.CONCAT%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95259">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_CONCAT_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.CONCAT*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_CONCAT" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.CONCAT">CONCAT()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_CONCAT" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.CONCAT">
+  CONCAT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode CONCAT()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_DECIMAL.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.DECIMAL%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95253">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_DECIMAL_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.DECIMAL*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_DECIMAL" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.DECIMAL">DECIMAL()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_DECIMAL" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.DECIMAL">
+  DECIMAL()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode DECIMAL()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_EXPAND.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.EXPAND%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95262">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_EXPAND_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.EXPAND*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_EXPAND" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.EXPAND">EXPAND()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_EXPAND" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.EXPAND">
+  EXPAND()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode EXPAND()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_EnterRule_Antlr4_Runtime_Tree_IParseTreeListener_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95298">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_EnterRule_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.EnterRule*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_EnterRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)">EnterRule(IParseTreeListener)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_EnterRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)">
+  EnterRule(IParseTreeListener)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void EnterRule(IParseTreeListener listener)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IParseTreeListener</span></td>
-        <td><span class="parametername">listener</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Antlr4.Runtime.ParserRuleContext.EnterRule(Antlr4.Runtime.Tree.IParseTreeListener)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_ExitRule_Antlr4_Runtime_Tree_IParseTreeListener_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95303">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>listener</code> <span class="xref">IParseTreeListener</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ExitRule_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ExitRule*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ExitRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)">ExitRule(IParseTreeListener)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ExitRule_Antlr4_Runtime_Tree_IParseTreeListener_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)">
+  ExitRule(IParseTreeListener)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void ExitRule(IParseTreeListener listener)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IParseTreeListener</span></td>
-        <td><span class="parametername">listener</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Antlr4.Runtime.ParserRuleContext.ExitRule(Antlr4.Runtime.Tree.IParseTreeListener)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_FAST.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.FAST%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95252">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>listener</code> <span class="xref">IParseTreeListener</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FAST_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FAST*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FAST" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FAST">FAST()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FAST" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FAST">
+  FAST()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode FAST()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_FOR.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.FOR%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95272">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FOR_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FOR*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FOR" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FOR">FOR()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FOR" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FOR">
+  FOR()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode FOR()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95264">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCE">FORCE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCE">
+  FORCE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode FORCE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCED.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCED%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95288">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCED_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCED*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCED" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCED">FORCED()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_FORCED" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.FORCED">
+  FORCED()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode FORCED()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_GROUP.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.GROUP%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95254">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_GROUP_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.GROUP*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_GROUP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.GROUP">GROUP()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_GROUP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.GROUP">
+  GROUP()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode GROUP()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_HASH.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.HASH%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95255">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_HASH_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.HASH*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_HASH" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.HASH">HASH()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_HASH" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.HASH">
+  HASH()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode HASH()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95265">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX">IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX">
+  IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode IGNORE_NONCLUSTERED_COLUMNSTORE_INDEX()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_JOIN.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.JOIN%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95260">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_JOIN_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.JOIN*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_JOIN" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.JOIN">JOIN()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_JOIN" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.JOIN">
+  JOIN()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode JOIN()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEP.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEP%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95266">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEP_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEP*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEP">KEEP()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEP">
+  KEEP()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode KEEP()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEPFIXED.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEPFIXED%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95268">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEPFIXED_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEPFIXED*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEPFIXED" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEPFIXED">KEEPFIXED()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_KEEPFIXED" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.KEEPFIXED">
+  KEEPFIXED()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode KEEPFIXED()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_LOOP.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.LOOP%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95261">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_LOOP_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.LOOP*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_LOOP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.LOOP">LOOP()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_LOOP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.LOOP">
+  LOOP()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode LOOP()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_LR_BRACKET.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.LR_BRACKET%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95273">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_LR_BRACKET_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.LR_BRACKET*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_LR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.LR_BRACKET">LR_BRACKET()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_LR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.LR_BRACKET">
+  LR_BRACKET()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode LR_BRACKET()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXDOP.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXDOP%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95269">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXDOP_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXDOP*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXDOP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXDOP">MAXDOP()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXDOP" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXDOP">
+  MAXDOP()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode MAXDOP()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXRECURSION.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXRECURSION%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95270">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXRECURSION_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXRECURSION*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXRECURSION" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXRECURSION">MAXRECURSION()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MAXRECURSION" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MAXRECURSION">
+  MAXRECURSION()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode MAXRECURSION()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_MERGE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.MERGE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95258">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MERGE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MERGE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MERGE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MERGE">MERGE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_MERGE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.MERGE">
+  MERGE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode MERGE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_OPTIMIZE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.OPTIMIZE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95271">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_OPTIMIZE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.OPTIMIZE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_OPTIMIZE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.OPTIMIZE">OPTIMIZE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_OPTIMIZE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.OPTIMIZE">
+  OPTIMIZE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode OPTIMIZE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_ORDER.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.ORDER%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95256">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ORDER_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ORDER*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ORDER" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ORDER">ORDER()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ORDER" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ORDER">
+  ORDER()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode ORDER()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_PARAMETERIZATION.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.PARAMETERIZATION%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95286">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_PARAMETERIZATION_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.PARAMETERIZATION*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_PARAMETERIZATION" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.PARAMETERIZATION">PARAMETERIZATION()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_PARAMETERIZATION" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.PARAMETERIZATION">
+  PARAMETERIZATION()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode PARAMETERIZATION()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_PLAN.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.PLAN%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95267">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_PLAN_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.PLAN*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_PLAN" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.PLAN">PLAN()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_PLAN" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.PLAN">
+  PLAN()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode PLAN()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_RECOMPILE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.RECOMPILE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95289">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RECOMPILE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RECOMPILE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RECOMPILE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RECOMPILE">RECOMPILE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RECOMPILE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RECOMPILE">
+  RECOMPILE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode RECOMPILE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_ROBUST.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.ROBUST%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95290">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ROBUST_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ROBUST*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ROBUST" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ROBUST">ROBUST()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_ROBUST" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.ROBUST">
+  ROBUST()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode ROBUST()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_RR_BRACKET.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.RR_BRACKET%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95280">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RR_BRACKET_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RR_BRACKET*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RR_BRACKET">RR_BRACKET()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_RR_BRACKET" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.RR_BRACKET">
+  RR_BRACKET()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode RR_BRACKET()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_SIMPLE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.SIMPLE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95287">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_SIMPLE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.SIMPLE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_SIMPLE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.SIMPLE">SIMPLE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_SIMPLE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.SIMPLE">
+  SIMPLE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode SIMPLE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_STRING.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.STRING%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95292">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_STRING_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.STRING*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_STRING" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.STRING">STRING()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_STRING" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.STRING">
+  STRING()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode STRING()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNION.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNION%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95257">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNION_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNION*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNION" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNION">UNION()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNION" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNION">
+  UNION()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode UNION()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNKNOWN.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNKNOWN%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95285">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNKNOWN_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNKNOWN*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNKNOWN" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNKNOWN">UNKNOWN()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_UNKNOWN" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.UNKNOWN">
+  UNKNOWN()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode UNKNOWN()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_USE.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.USE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95291">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_USE_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.USE*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_USE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.USE">USE()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_USE" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.USE">
+  USE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode USE()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_VIEWS.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.VIEWS%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95263">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_VIEWS_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.VIEWS*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_VIEWS" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.VIEWS">VIEWS()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_VIEWS" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.VIEWS">
+  VIEWS()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ITerminalNode VIEWS()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ITerminalNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95274">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITerminalNode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg">optimize_for_arg()</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg">
+  optimize_for_arg()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Optimize_for_argContext[] optimize_for_arg()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Optimize_for_argContext.html">Optimize_for_argContext</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/SQLParser/new/master/apiSpec/new?filename=SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg_System_Int32_.md&amp;value=---%0Auid%3A%20SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95277">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Optimize_for_argContext.html">Optimize_for_argContext</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg*"></a>
-  <h4 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg(System.Int32)">optimize_for_arg(int)</h4>
+
+  <h3 id="SQLParser_Parsers_TSql_TSqlParser_OptionContext_optimize_for_arg_System_Int32_" data-uid="SQLParser.Parsers.TSql.TSqlParser.OptionContext.optimize_for_arg(System.Int32)">
+  optimize_for_arg(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TSqlParser.Optimize_for_argContext optimize_for_arg(int i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">i</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Optimize_for_argContext.html">Optimize_for_argContext</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.IRuleNode</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.IParseTree</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.ISyntaxTree</span>
-  </div>
-  <div>
-      <span class="xref">Antlr4.Runtime.Tree.ITree</span>
-  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.html">TSqlParser</a>.<a class="xref" href="SQLParser.Parsers.TSql.TSqlParser.Optimize_for_argContext.html">Optimize_for_argContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
-                </div>
 
-                <div class="copyright-footer">
-                    <span>&#169; James Craig. All rights reserved.</span>
-                </div>
-            </main>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JaCraig/SQLParser/blob/master/SQLParser/Parsers/TSql/TSqlParser.cs/#L95248" class="edit-link">Edit this page</a>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
-        <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
-        <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong><a href='https://github.com/JaCraig/SQLParser'>Open in Github</a></strong>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
