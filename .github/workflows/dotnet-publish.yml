@@ -51,21 +51,21 @@ jobs:
       run: dotnet test /p:Configuration=$BUILD_CONFIG --no-build --verbosity normal --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
     
     - name: Upload test results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dotnet-results-${{ matrix.dotnet-version }}
         path: TestResults-${{ matrix.dotnet-version }}
       if: ${{ always() }}
       
     - name: Upload NuGet package
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: NugetPackage
         path: ./**/*.nupkg
       if: steps.versionize.outcome == 'success'
       
     - name: Upload Symbol package
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: SymbolPackage
         path: ./**/*.snupkg
