@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/JaCraig/SQLParser/blob/master/docfx_project/articles/intro.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/SQLParser/blob/master/docfx_project/articles/where.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -87,15 +87,15 @@
         <article data-uid="">
 <h1 id="code">Code</h1>
 
-<pre><code class="lang-csharp">using SQLParser.Parsers.TSql;
-using System.Diagnostics.CodeAnalysis;
+<pre><code class="lang-csharp">using Antlr4.Runtime.Misc;
+using SQLParser.Parsers.TSql;
 
 namespace SQLParser.Example
 {
     /// &lt;summary&gt;
-    /// This is an example of how to use the parser to detect a SELECT statement.
+    /// This is an example of how to use the parser to parse out the where clause of a select statement.
     /// &lt;/summary&gt;
-    public class SimpleExample
+    public class WhereClauseExample
     {
         /// &lt;summary&gt;
         /// Runs this instance.
@@ -106,10 +106,10 @@ namespace SQLParser.Example
             var ExamplePrinter = new Printer();
 
             // Parse a statement and pass the printer to the parser
-            Parser.Parse(&quot;SELECT * FROM Somewhere&quot;, ExamplePrinter, Enums.SQLType.TSql);
+            Parser.Parse(&quot;SELECT * FROM Somewhere WHERE MyColumn = @parameter1 AND MySecondColumn = @parameter2&quot;, ExamplePrinter, Enums.SQLType.TSql);
 
-            // ExamplePrinter.StatementFound is now true if the statement is a SELECT statement
-            Console.WriteLine(ExamplePrinter.StatementFound);
+            // ExamplePrinter.WhereClause is now the where clause of the statement
+            Console.WriteLine(ExamplePrinter.WhereClause);
         }
 
         /// &lt;summary&gt;
@@ -119,33 +119,35 @@ namespace SQLParser.Example
         internal class Printer : TSqlParserBaseListener
         {
             /// &lt;summary&gt;
-            /// Gets or sets a value indicating whether [statement found].
+            /// The final where clause found in the statement.
             /// &lt;/summary&gt;
-            /// &lt;value&gt;&lt;c&gt;true&lt;/c&gt; if [statement found]; otherwise, &lt;c&gt;false&lt;/c&gt;.&lt;/value&gt;
-            public bool StatementFound { get; set; }
+            public string? WhereClause { get; set; }
 
             /// &lt;summary&gt;
-            /// Enter a parse tree produced by &lt;see cref=&quot;M:SQLParser.Parsers.TSql.TSqlParser.dml_clause&quot;/&gt;.
-            /// &lt;para&gt;The default implementation does nothing.&lt;/para&gt;
+            /// The select statement is found in the query specification. For our purposes, we only
+            /// need to check if there is a where clause and if so, store it.
             /// &lt;/summary&gt;
-            /// &lt;param name=&quot;context&quot;&gt;The parse tree.&lt;/param&gt;
-            public override void EnterDml_clause([NotNull] TSqlParser.Dml_clauseContext context)
+            /// &lt;param name=&quot;context&quot;&gt;The query context object&lt;/param&gt;
+            public override void EnterQuery_specification([NotNull] TSqlParser.Query_specificationContext context)
             {
-                // This is a select statement if the select_statement_standalone is not null
-                StatementFound |= context.select_statement_standalone() != null;
-                base.EnterDml_clause(context);
+                if (context.where is null)
+                    return;
+                var StartIndex = context.where.Start.StartIndex;
+                var StopIndex = context.where.Stop.StopIndex;
+                var WhereClauseInterval = new Interval(StartIndex, StopIndex);
+                WhereClause = context.Start.InputStream.GetText(WhereClauseInterval);
             }
         }
     }
 }
 </code></pre><h1 id="output">Output</h1>
-<pre><code>True
+<pre><code>MyColumn = @parameter1 AND MySecondColumn = @parameter2
 </code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/JaCraig/SQLParser/blob/master/docfx_project/articles/intro.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/JaCraig/SQLParser/blob/master/docfx_project/articles/where.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

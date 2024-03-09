@@ -5867,6 +5867,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/where.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/where.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "images/icon.png",
       "output": {
