@@ -50,12 +50,12 @@ namespace SQLParser
             Stream = new CaseChangingCharStream(Stream);
             ITokenSource Lexer = new TSqlLexer(Stream, TextWriter.Null, TextWriter.Null);
             ITokenStream Tokens = new CommonTokenStream(Lexer);
-            TSqlParser Parser = new TSqlParser(Tokens, TextWriter.Null, TextWriter.Null)
+            var Parser = new TSqlParser(Tokens, TextWriter.Null, TextWriter.Null)
             {
                 BuildParseTree = true
             };
-            IParseTree tree = Parser.tsql_file();
-            ParseTreeWalker.Default.Walk(listener, tree);
+            IParseTree Tree = Parser.tsql_file();
+            ParseTreeWalker.Default.Walk(listener, Tree);
         }
     }
 }

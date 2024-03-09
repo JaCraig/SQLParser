@@ -1,5 +1,5 @@
 # Code
-[!code-csharp[](../../SQLParser.Example/Program.cs)]
+[!code-csharp[](../../SQLParser.Example/SimpleExample.cs)]
 
 # Output
 

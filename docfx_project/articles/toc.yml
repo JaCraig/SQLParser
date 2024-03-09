@@ -1,2 +1,4 @@
-- name: Example
+- name: Simple Example
   href: intro.md
+- name: Where Clause Parsing
+  href: where.md
