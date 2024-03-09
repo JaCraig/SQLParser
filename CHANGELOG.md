@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.15"></a>
+## [3.0.15](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.15) (2024-03-09)
+
+### Bug Fixes
+
+* Adding new example and package updates ([364d222](https://www.github.com/JaCraig/SQLParser/commit/364d222df466fa85fb84bf2469c955bacc4cfd7f))
+
 <a name="3.0.14"></a>
 ## [3.0.14](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.14) (2024-03-04)
 
