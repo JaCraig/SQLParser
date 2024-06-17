@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.19"></a>
+## [3.0.19](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.19) (2024-06-17)
+
+### Bug Fixes
+
+* bump versionize from 1.25.0 to 1.27.0 in the dependencies group ([dc67e4e](https://www.github.com/JaCraig/SQLParser/commit/dc67e4eb7893f3577c3519475e0eb34933cfc3b0))
+
+### Other
+
+* Merge pull request #50 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-d10d8338a5 ([c300ec1](https://www.github.com/JaCraig/SQLParser/commit/c300ec18fa37ab5b8531d71b383a57ae837a7857))
+* Merge pull request #51 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-63bf006411 ([f687299](https://www.github.com/JaCraig/SQLParser/commit/f6872998c2285ce1bf9ff299e4ddb742fe5e241e))
+* Merge pull request #52 from JaCraig/dependabot/nuget/dependencies-6ac438fda8 ([d4b15c7](https://www.github.com/JaCraig/SQLParser/commit/d4b15c7eb068d25b46f69d16b4efcdd48102e950))
+* bump Microsoft.NET.Test.Sdk ([51961cc](https://www.github.com/JaCraig/SQLParser/commit/51961ccc84fce95bf594b9edc2002687eb81c8bf))
+* bump the dependencies group in /SQLParser.Tests with 2 updates ([a01769b](https://www.github.com/JaCraig/SQLParser/commit/a01769b961883f499991a9dc3a5cea61e7749bf8))
+
 <a name="3.0.18"></a>
 ## [3.0.18](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.18) (2024-05-06)
 
