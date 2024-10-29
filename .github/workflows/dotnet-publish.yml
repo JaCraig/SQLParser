@@ -38,7 +38,7 @@ jobs:
             
     - name: Versionize Release
       id: versionize
-      run: versionize --changelog-all --exit-insignificant-commits
+      run: versionize --exit-insignificant-commits
       continue-on-error: true
       
     - name: Restore dependencies
