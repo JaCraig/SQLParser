@@ -8,34 +8,7 @@ permissions:
 
 jobs:
   review-dependabot-pr:
-    runs-on: ubuntu-latest
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
-    steps:
-      - name: Dependabot metadata
-        id: dependabot-metadata
-        uses: dependabot/fetch-metadata@v2.2.0
-      - name: Approve patch and minor updates
-        if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-patch' || steps.dependabot-metadata.outputs.update-type == 'version-update:semver-minor'}}
-        run: gh pr review $PR_URL --approve -b "**Approving** this pull request because **it includes a patch or minor update**"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
-      - name: Approve major updates of development dependencies
-        if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' && steps.dependabot-metadata.outputs.dependency-type == 'direct:development'}}
-        run: gh pr review $PR_URL --approve -b "**Approving** this pull request because **it includes a major update of a dependency used only in development**"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
-      - name: Comment on major updates of non-development dependencies
-        if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' && steps.dependabot-metadata.outputs.dependency-type == 'direct:production'}}
-        run: |
-          gh pr comment $PR_URL --body "**Not approving** this PR because **it includes a major update of a dependency used in production**"
-          gh pr edit $PR_URL --add-label "requires-manual-qa"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
-      - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+    uses: JaCraig/Centralized-Workflows/.github/workflows/dependabot-reviewer.yml@main
+    secrets:
+      token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

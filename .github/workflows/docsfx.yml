@@ -4,36 +4,9 @@ on:
   push:
     branches: [ "master" ]
 
+permissions:
+  contents: write
+
 jobs:
   publish-docs:
-    env:
-      BUILD_CONFIG: 'Release'
-      SOLUTION: 'FastActivator.sln'
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet-version: [ '6.0.x' ]
-        
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup .NET SDK ${{ matrix.dotnet-version }}
-      uses: actions/setup-dotnet@v4.1.0
-      with:
-        dotnet-version: ${{ matrix.dotnet-version }}
-        
-    - name: Restore dependencies
-      run: dotnet restore
-        
-    - name: Build
-      run: dotnet build --no-restore --configuration $BUILD_CONFIG
-
-    - run: dotnet tool update -g docfx
-    - run: docfx docfx_project/docfx.json
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docfx_project/_site
+    uses: JaCraig/Centralized-Workflows/.github/workflows/docsfx.yml@main
