@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.0"></a>
+## [4.0.0](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.0.0) (2024-11-19)
+
+### Features
+
+* Update configs, workflows, and target frameworks ([323418e](https://www.github.com/JaCraig/SQLParser/commit/323418e3b456c00318bae4a49d8c41fdbeea3ca4))
+
+### Breaking Changes
+
+* Update configs, workflows, and target frameworks ([323418e](https://www.github.com/JaCraig/SQLParser/commit/323418e3b456c00318bae4a49d8c41fdbeea3ca4))
+
+### Other
+
+* Add coverlet packages and reorder xunit reference ([2967438](https://www.github.com/JaCraig/SQLParser/commit/2967438fac093a13ddc5858589ab07819d92ef45))
+* update husky and versionize tool versions to 0.7.1 and 2.3.0 respectively ([4c12d63](https://www.github.com/JaCraig/SQLParser/commit/4c12d639176ae3b9a8ad1dfcc05369318c12c9a3))
+
 <a name="3.0.22"></a>
 ## [3.0.22](https://www.github.com/JaCraig/SQLParser/releases/tag/v3.0.22) (2024-11-11)
 
