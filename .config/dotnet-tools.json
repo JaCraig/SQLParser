@@ -3,16 +3,18 @@
   "isRoot": true,
   "tools": {
     "husky": {
-      "version": "0.6.1",
+      "version": "0.7.1",
       "commands": [
         "husky"
-      ]
+      ],
+      "rollForward": false
     },
     "versionize": {
       "version": "2.3.0",
       "commands": [
         "versionize"
-      ]
+      ],
+      "rollForward": false
     }
   }
 }
