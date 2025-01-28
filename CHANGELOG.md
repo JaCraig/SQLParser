@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.1"></a>
+## [4.0.1](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.0.1) (2025-01-28)
+
+### Bug Fixes
+
+* bump versionize in /SQLParser in the dependencies group ([429077e](https://www.github.com/JaCraig/SQLParser/commit/429077e0027778d006980b3a697c706bb3fe581a))
+
+### Other
+
+* Merge pull request #65 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-617062173c ([9ce801f](https://www.github.com/JaCraig/SQLParser/commit/9ce801fcde689f0cdee7621f922174fd211233a2))
+* Merge pull request #67 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-0eb5dce03c ([1d845c0](https://www.github.com/JaCraig/SQLParser/commit/1d845c04f9bf725e5c7564b3f981a4d44bab89fc))
+* Merge pull request #68 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-637ad84d5b ([7094198](https://www.github.com/JaCraig/SQLParser/commit/7094198c1694d56fb64c81f0f9d9657771f2f7aa))
+* Merge pull request #69 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-37a7915f86 ([5e0b634](https://www.github.com/JaCraig/SQLParser/commit/5e0b6342c1c3227252b65bf6a3121917837a6511))
+* Merge pull request #70 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-dac939b906 ([230dbc4](https://www.github.com/JaCraig/SQLParser/commit/230dbc4cd080e1e40df96cf51d05e9406f2b8209))
+* Merge pull request #71 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-955fcb2e58 ([e378d9d](https://www.github.com/JaCraig/SQLParser/commit/e378d9da5c27de9ae43fcda069591ca580b8fa98))
+* Merge pull request #72 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-293c44675e ([83bff30](https://www.github.com/JaCraig/SQLParser/commit/83bff305e98385f2d765ffe0f27a27eeea39d1ab))
+* Merge pull request #73 from JaCraig/dependabot/nuget/SQLParser/dependencies-836e21bf11 ([718e0e0](https://www.github.com/JaCraig/SQLParser/commit/718e0e0ce08219bdab999918e1b6ada7f0560f5e))
+* bump husky in /SQLParser.Tests in the dependencies group ([49857cb](https://www.github.com/JaCraig/SQLParser/commit/49857cbd0a73cb1b53db7f141f0edd4e44268acc))
+* bump Microsoft.NET.Test.Sdk ([28b5016](https://www.github.com/JaCraig/SQLParser/commit/28b5016f843270025174ac89a593378effd5bd3b))
+* bump the dependencies group in /SQLParser.Tests with 2 updates ([d3e8d13](https://www.github.com/JaCraig/SQLParser/commit/d3e8d13b39dc3095ace7b0817789cdde559edd03))
+* bump the dependencies group in /SQLParser.Tests with 2 updates ([4f3d09e](https://www.github.com/JaCraig/SQLParser/commit/4f3d09e10e08d76283024b941a61301f67ff8faf))
+* bump xunit in /SQLParser.Tests in the dependencies group ([26a5185](https://www.github.com/JaCraig/SQLParser/commit/26a5185d71b7a18458ff19da53400b13e5f8a897))
+* bump xunit.runner.visualstudio ([23c0753](https://www.github.com/JaCraig/SQLParser/commit/23c0753a77408f37d6d872608980d61e1d7ce346))
+* bump xunit.runner.visualstudio ([845714c](https://www.github.com/JaCraig/SQLParser/commit/845714cc6ed9d9eb44ceae6b7d3c78d88e83a294))
+
 <a name="4.0.0"></a>
 ## [4.0.0](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.0.0) (2024-11-19)
 
