@@ -13,7 +13,7 @@ updates:
       prefix: "fix"
     groups:
       dependencies:
-        patterns: 
+        patterns:
           - "*"
 
   - package-ecosystem: "nuget" # See documentation for possible values
@@ -24,7 +24,7 @@ updates:
       prefix: "chore"
     groups:
       dependencies:
-        patterns: 
+        patterns:
           - "*"
 
   - package-ecosystem: "nuget" # See documentation for possible values
@@ -35,7 +35,7 @@ updates:
       prefix: "chore"
     groups:
       dependencies:
-        patterns: 
+        patterns:
           - "*"
 
   - package-ecosystem: "github-actions"
@@ -46,5 +46,5 @@ updates:
       prefix: "chore"
     groups:
       dependencies:
-        patterns: 
+        patterns:
           - "*"
