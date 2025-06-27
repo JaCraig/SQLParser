@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.2"></a>
+## [4.0.2](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.0.2) (2025-06-27)
+
+### Bug Fixes
+
+* **dependabot:** correct indentation in patterns section ([43923a6](https://www.github.com/JaCraig/SQLParser/commit/43923a6fa5e5178fcd6f84fbede35e7bcabcf00b))
+
 <a name="4.0.1"></a>
 ## [4.0.1](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.0.1) (2025-01-28)
 
