@@ -27,3 +27,5 @@ permissions:
 jobs:
   analyze:
     uses: JaCraig/Centralized-Workflows/.github/workflows/codeql.yml@main
+    with:
+      languages: "['csharp']"
