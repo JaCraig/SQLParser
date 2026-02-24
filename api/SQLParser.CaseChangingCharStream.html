@@ -335,15 +335,16 @@ string. If such a name is not known, this method returns
 
   <h4 class="section" id="SQLParser_CaseChangingCharStream_Consume_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Consumes the current symbol in the stream. This method has the following effects:</p>
-<ul><li><strong>Forward movement:</strong> The value of
-<span class="xref">index()</span> before calling this method is
-less than the value of <code>index()</code> after calling this method.</li><li><strong>Ordered
-lookahead:</strong> The value of <code>LA(1)</code> before calling this method becomes the
-value of <code>LA(-1)</code> after calling this method.</li></ul> Note that calling this method
-does not guarantee that <code>index()</code> is incremented by exactly 1, as that would
-preclude the ability to implement filtering streams (e.g.
-<span class="xref">Antlr4.Runtime.CommonTokenStream</span> which distinguishes between "on-channel"
-and "off-channel" tokens).
+   <ul><li><strong>Forward movement:</strong> The value of
+   <span class="xref">index()</span> before calling this method is
+   less than the value of <code>index()</code> after calling this method.</li><li><strong>Ordered
+   lookahead:</strong> The value of <code>LA(1)</code> before calling this method becomes the
+   value of <code>LA(-1)</code> after calling this method.</li></ul>
+Note that calling this method
+   does not guarantee that <code>index()</code> is incremented by exactly 1, as that would
+   preclude the ability to implement filtering streams (e.g.
+   <span class="xref">Antlr4.Runtime.CommonTokenStream</span> which distinguishes between "on-channel"
+   and "off-channel" tokens).
 </div>
 
 
@@ -493,8 +494,8 @@ an operation to safely work within a marked region, then restore the stream posi
 its original value and release the mark.
 </p>
 <pre>IntStream stream = ...; int index = -1; int mark = stream.mark(); try { index =
-stream.index(); // perform work here... } finally { if (index != -1) {
-stream.seek(index); } stream.release(mark); }</pre>
+    stream.index(); // perform work here... } finally { if (index != -1) {
+    stream.seek(index); } stream.release(mark); }</pre>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -579,16 +580,17 @@ For more information and an example, see <span class="xref">Antlr4.Runtime.IIntS
 specified index lies past the end of the stream, the operation behaves as though
 <code class="paramref">index</code> was the index of the EOF symbol. After this method returns
 without throwing an exception, the at least one of the following will be true.</p>
-<ul><li><span class="xref">index()</span> will return the index
-of the first symbol appearing at or after the specified <code class="paramref">index</code> .
-Specifically, implementations which filter their sources should automatically adjust
-<code class="paramref">index</code> forward the minimum amount required for the operation to target
-a non-ignored symbol.</li><li><code>LA(1)</code> returns
-<span class="xref">Antlr4.Runtime.IntStreamConstants.EOF</span></li></ul> This operation is
-guaranteed to not throw an exception if <code class="paramref">index</code> lies within a marked
-region. For more information on marked regions, see
-<span class="xref">Antlr4.Runtime.IIntStream.Mark()</span> . The behavior of this method is
-unspecified if no call to an <span class="xref">initializing
+   <ul><li><span class="xref">index()</span> will return the index
+   of the first symbol appearing at or after the specified <code class="paramref">index</code> .
+   Specifically, implementations which filter their sources should automatically adjust
+   <code class="paramref">index</code> forward the minimum amount required for the operation to target
+   a non-ignored symbol.</li><li><code>LA(1)</code> returns
+   <span class="xref">Antlr4.Runtime.IntStreamConstants.EOF</span></li></ul>
+This operation is
+   guaranteed to not throw an exception if <code class="paramref">index</code> lies within a marked
+   region. For more information on marked regions, see
+   <span class="xref">Antlr4.Runtime.IIntStream.Mark()</span> . The behavior of this method is
+   unspecified if no call to an <span class="xref">initializing
     method</span> has occurred after this stream was constructed.
 </div>
   <div class="markdown level1 conceptual"></div>
