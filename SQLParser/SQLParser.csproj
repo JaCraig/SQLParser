@@ -6,7 +6,7 @@
 			operations on the parsed queries.</Description>
 		<AssemblyTitle>SQLParser</AssemblyTitle>
 		<Authors>James Craig</Authors>
-		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<AssemblyName>SQLParser</AssemblyName>
 		<PackageId>SQLParser</PackageId>
@@ -17,7 +17,7 @@
 		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>4.0.2</Version>
+		<Version>4.0.4</Version>
 		<Title>SQLParser</Title>
 		<Copyright>Copyright © James Craig 2017</Copyright>
 		<PackageIcon>Icon.png</PackageIcon>
@@ -49,9 +49,9 @@
 
 	<ItemGroup>
 		<PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.102"
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.201"
 			PrivateAssets="All" />
-		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.102">
+		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.201">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
