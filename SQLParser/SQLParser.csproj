@@ -6,7 +6,7 @@
 			operations on the parsed queries.</Description>
 		<AssemblyTitle>SQLParser</AssemblyTitle>
 		<Authors>James Craig</Authors>
-		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<AssemblyName>SQLParser</AssemblyName>
 		<PackageId>SQLParser</PackageId>
