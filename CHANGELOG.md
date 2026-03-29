@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.1.0"></a>
+## [4.1.0](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.0) (2026-03-29)
+
+### Features
+
+* **project:** add support for .NET 10.0 ([ab80cbd](https://www.github.com/JaCraig/SQLParser/commit/ab80cbd940b3e5558d7cd8d89f2f258edf4a2806))
+
+### Other
+
+* Merge pull request #101 from JaCraig/dependabot/nuget/dot-config/dependencies-8bbbd064bf ([2ee36bc](https://www.github.com/JaCraig/SQLParser/commit/2ee36bc663fd416f9dd7755b7aa23bff1a96c875))
+* Merge pull request #102 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-4bb5c90d9e ([32e24e6](https://www.github.com/JaCraig/SQLParser/commit/32e24e63e53bc6a3a34324d117505e56a8636c79))
+* Bump the dependencies group with 1 update ([a0720d6](https://www.github.com/JaCraig/SQLParser/commit/a0720d69ccdf0772c2a2d4b35e56c6bbf2321725))
+* Bump the dependencies group with 2 updates ([d45f950](https://www.github.com/JaCraig/SQLParser/commit/d45f9501045e80889d88df080b385e1ce00c2eb1))
+* Merge branch 'master' of https://github.com/JaCraig/SQLParser ([5130ac6](https://www.github.com/JaCraig/SQLParser/commit/5130ac63819359859fb812105ed44d98c7d014c5))
+* **dependencies:** update package update schedule and project configurations ([d52cfbd](https://www.github.com/JaCraig/SQLParser/commit/d52cfbd91fa66e5e640b17c05fd18a0c4d4f54d6))
+
 <a name="4.0.4"></a>
 ## [4.0.4](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.0.4) (2026-03-12)
 

@@ -17,7 +17,7 @@
 		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>4.0.4</Version>
+		<Version>4.1.0</Version>
 		<Title>SQLParser</Title>
 		<Copyright>Copyright © James Craig 2017</Copyright>
 		<PackageIcon>Icon.png</PackageIcon>
@@ -49,18 +49,14 @@
 
 	<ItemGroup>
 		<PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.201"
-			PrivateAssets="All" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.201" PrivateAssets="All" />
 		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.201">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
-	<Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences"
-		Condition="'$(HUSKY)' != 0">
-		<Exec Command="dotnet tool restore" StandardOutputImportance="Low"
-			StandardErrorImportance="High" />
-		<Exec Command="dotnet husky install" StandardOutputImportance="Low"
-			StandardErrorImportance="High" WorkingDirectory=".." />
+	<Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
+		<Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
+		<Exec Command="dotnet husky install" StandardOutputImportance="Low" StandardErrorImportance="High" WorkingDirectory=".." />
 	</Target>
 </Project>
