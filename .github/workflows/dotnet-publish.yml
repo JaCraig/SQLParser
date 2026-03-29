@@ -5,15 +5,15 @@ name: .NET Publish
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
-    uses: 'JaCraig/Centralized-Workflows/.github/workflows/dotnet-publish.yml@main'
+    uses: "JaCraig/Centralized-Workflows/.github/workflows/dotnet-publish.yml@main"
     with:
-      user: 'JaCraig'
-      user-email: 'JaCraig@users.noreply.github.com'
-      coveralls-upload: "./SQLParser.Tests/TestResults-9.0.x/coverage.net8.0.info"
+      user: "JaCraig"
+      user-email: "JaCraig@users.noreply.github.com"
+      coveralls-upload: "./SQLParser.Tests/TestResults-10.0.x/coverage.net10.0.info"
       test-filter: "SQLParser.Tests"
     secrets:
       PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

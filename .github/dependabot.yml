@@ -19,7 +19,7 @@ updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/SQLParser.Tests/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
     commit-message:
       prefix: "chore"
     groups:
@@ -30,7 +30,7 @@ updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/SQLParser.Example/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
     commit-message:
       prefix: "chore"
     groups:
@@ -41,7 +41,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     commit-message:
       prefix: "chore"
     groups:
