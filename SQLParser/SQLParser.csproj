@@ -17,7 +17,7 @@
 		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>4.1.0</Version>
+		<Version>4.1.1</Version>
 		<Title>SQLParser</Title>
 		<Copyright>Copyright © James Craig 2017</Copyright>
 		<PackageIcon>Icon.png</PackageIcon>
