@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.1.3"></a>
+## [4.1.3](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.3) (2026-05-12)
+
+### Bug Fixes
+
+* Bump the dependencies group with 2 updates ([f3c47ab](https://www.github.com/JaCraig/SQLParser/commit/f3c47ab2e40036ef79dfc20d40eb98f4e110a6d0))
+
+### Other
+
+* Merge pull request #107 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-c40de98e79 ([32cc505](https://www.github.com/JaCraig/SQLParser/commit/32cc5058e74096515ad1cf65f90a0a553d1ec495))
+* Merge pull request #108 from JaCraig/dependabot/nuget/SQLParser/dependencies-116d79d185 ([3047cf5](https://www.github.com/JaCraig/SQLParser/commit/3047cf5a2324f0752315b73f3e7ebd6b2eb7ccf8))
+* Refactor commit-lint.csx to improve message validation ([7e61bc1](https://www.github.com/JaCraig/SQLParser/commit/7e61bc13441b830e2874a4c90d746f4779daa073))
+* Bump the dependencies group with 1 update ([a19788d](https://www.github.com/JaCraig/SQLParser/commit/a19788d0a6fca80d0ac4a0949a8497876a54e6d5))
+
 <a name="4.1.2"></a>
 ## [4.1.2](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.2) (2026-04-21)
 
