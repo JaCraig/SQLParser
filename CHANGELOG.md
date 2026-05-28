@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.1.4"></a>
+## [4.1.4](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.4) (2026-05-28)
+
+### Bug Fixes
+
+* **workflows:** remove PERSONAL_ACCESS_TOKEN from workflows ([9e7f641](https://www.github.com/JaCraig/SQLParser/commit/9e7f641d722ab8bb52ec4035abca023fe6e1f15a))
+
+### Other
+
+* Merge pull request #109 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-3fec291e4a ([ad71161](https://www.github.com/JaCraig/SQLParser/commit/ad711613538f9645cabbf014e01caf8c66ab546b))
+* Bump the dependencies group with 2 updates ([5eb0921](https://www.github.com/JaCraig/SQLParser/commit/5eb092186d7789eb07c3848de6a646b5c5a095d2))
+* **copilot:** add commit message guidelines ([d2c061c](https://www.github.com/JaCraig/SQLParser/commit/d2c061c03c65a6c3be07548b10db582c2f182e7c))
+
 <a name="4.1.3"></a>
 ## [4.1.3](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.3) (2026-05-12)
 
