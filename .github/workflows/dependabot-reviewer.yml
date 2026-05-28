@@ -10,5 +10,3 @@ jobs:
   review-dependabot-pr:
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     uses: JaCraig/Centralized-Workflows/.github/workflows/dependabot-reviewer.yml@main
-    secrets:
-      token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
