@@ -50,7 +50,7 @@
 	<ItemGroup>
 		<PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.300" PrivateAssets="All" />
-		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.300">
+		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.301">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
