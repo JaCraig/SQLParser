@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.1.5"></a>
+## [4.1.5](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.5) (2026-08-18)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([b006952](https://www.github.com/JaCraig/SQLParser/commit/b006952fa1600103a8154dd8d7401607602014c9))
+* Bump the dependencies group with 1 update ([2e48cfc](https://www.github.com/JaCraig/SQLParser/commit/2e48cfcb78614a78cdac88aa21e6a19c519bfaa2))
+* Bump the dependencies group with 2 updates ([119439a](https://www.github.com/JaCraig/SQLParser/commit/119439a1c2296c66a356d4e92993f49659ab43c7))
+* Bump the dependencies group with 2 updates ([81d40c2](https://www.github.com/JaCraig/SQLParser/commit/81d40c2c0649e69a86d931fc8a2f891326d7498d))
+
+### Other
+
+* Merge pull request #110 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-041891a2d4 ([a5a7640](https://www.github.com/JaCraig/SQLParser/commit/a5a7640f4370a1f006ee82e0b7b73d0abd6fef9c))
+* Merge pull request #111 from JaCraig/dependabot/nuget/SQLParser/dependencies-991ee26f7c ([ac29172](https://www.github.com/JaCraig/SQLParser/commit/ac29172a3c996462fd23c774ada2a4b9a90e0e62))
+* Merge pull request #112 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-407341980e ([bf7e505](https://www.github.com/JaCraig/SQLParser/commit/bf7e5056dd021a76f0fa2986be99b9fad7a420ee))
+* Merge pull request #113 from JaCraig/dependabot/nuget/SQLParser/dependencies-5c1cd76f7e ([c596b80](https://www.github.com/JaCraig/SQLParser/commit/c596b805382bf638ab6b603e10b9284d9a75c89c))
+* Merge pull request #114 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-4aa9edd91c ([a981840](https://www.github.com/JaCraig/SQLParser/commit/a9818406acb047833030e3b0d2182c71a1c86426))
+* Merge pull request #115 from JaCraig/dependabot/nuget/dot-config/dependencies-d580172a4f ([5486995](https://www.github.com/JaCraig/SQLParser/commit/54869955d2cfc277d0ec518fdeab6d3f67a32fec))
+* Merge pull request #116 from JaCraig/dependabot/nuget/dot-config/dependencies-d580172a4f ([9a351ed](https://www.github.com/JaCraig/SQLParser/commit/9a351edd433d871397e7a79ca40facc993b61004))
+* Merge pull request #117 from JaCraig/dependabot/nuget/SQLParser/dependencies-637020aa5a ([17b26c4](https://www.github.com/JaCraig/SQLParser/commit/17b26c4932cbd3d3066266ee8d106585e8e390fc))
+* Merge pull request #118 from JaCraig/dependabot/nuget/SQLParser.Tests/dependencies-b5a8bd656f ([a29d8c9](https://www.github.com/JaCraig/SQLParser/commit/a29d8c9f0a92ea33a8f5a78dbb76b397acfc3238))
+* Bump the dependencies group with 1 update ([c21e462](https://www.github.com/JaCraig/SQLParser/commit/c21e4621a7687a1b632675be8d522a93ae6a78f3))
+* Bump the dependencies group with 1 update ([6ca552b](https://www.github.com/JaCraig/SQLParser/commit/6ca552b5e9971cf7c14095d4c670c46f5c681ced))
+* Bump the dependencies group with 1 update ([b2381d5](https://www.github.com/JaCraig/SQLParser/commit/b2381d506baad85f3f3279e8ed6154a5f7ef6c84))
+* Bump the dependencies group with 1 update ([8903cfa](https://www.github.com/JaCraig/SQLParser/commit/8903cfaedeaa4e957b1a89e33be24de33b51046a))
+* Bump the dependencies group with 2 updates ([1d049d6](https://www.github.com/JaCraig/SQLParser/commit/1d049d601e9b4f8fc0842bd361e9621cad9e47a8))
+
 <a name="4.1.4"></a>
 ## [4.1.4](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.4) (2026-05-28)
 
