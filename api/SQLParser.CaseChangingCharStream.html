@@ -340,11 +340,11 @@ string. If such a name is not known, this method returns
    less than the value of <code>index()</code> after calling this method.</li><li><strong>Ordered
    lookahead:</strong> The value of <code>LA(1)</code> before calling this method becomes the
    value of <code>LA(-1)</code> after calling this method.</li></ul>
-Note that calling this method
-   does not guarantee that <code>index()</code> is incremented by exactly 1, as that would
-   preclude the ability to implement filtering streams (e.g.
-   <span class="xref">Antlr4.Runtime.CommonTokenStream</span> which distinguishes between "on-channel"
-   and "off-channel" tokens).
+<p>Note that calling this method
+does not guarantee that <code>index()</code> is incremented by exactly 1, as that would
+preclude the ability to implement filtering streams (e.g.
+<span class="xref">Antlr4.Runtime.CommonTokenStream</span> which distinguishes between &quot;on-channel&quot;
+and &quot;off-channel&quot; tokens).</p>
 </div>
 
 
@@ -586,12 +586,12 @@ without throwing an exception, the at least one of the following will be true.</
    <code class="paramref">index</code> forward the minimum amount required for the operation to target
    a non-ignored symbol.</li><li><code>LA(1)</code> returns
    <span class="xref">Antlr4.Runtime.IntStreamConstants.EOF</span></li></ul>
-This operation is
-   guaranteed to not throw an exception if <code class="paramref">index</code> lies within a marked
-   region. For more information on marked regions, see
-   <span class="xref">Antlr4.Runtime.IIntStream.Mark()</span> . The behavior of this method is
-   unspecified if no call to an <span class="xref">initializing
-    method</span> has occurred after this stream was constructed.
+<p>This operation is
+guaranteed to not throw an exception if <code class="paramref">index</code> lies within a marked
+region. For more information on marked regions, see
+<span class="xref">Antlr4.Runtime.IIntStream.Mark()</span> . The behavior of this method is
+unspecified if no call to an <span class="xref">initializing
+    method</span> has occurred after this stream was constructed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
