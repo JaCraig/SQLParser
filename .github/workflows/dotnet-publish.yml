@@ -7,6 +7,10 @@ on:
   push:
     branches: ["master"]
 
+permissions:
+  contents: write
+  id-token: write
+
 jobs:
   build:
     uses: "JaCraig/Centralized-Workflows/.github/workflows/dotnet-publish.yml@main"
@@ -15,5 +19,28 @@ jobs:
       user-email: "JaCraig@users.noreply.github.com"
       coveralls-upload: "./SQLParser.Tests/TestResults-10.0.x/coverage.net10.0.info"
       test-filter: "SQLParser.Tests"
-    secrets:
-      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+
+  publish:
+    needs: build
+    if: needs.build.outputs.package-created == 'true'
+    permissions:
+      contents: write
+      id-token: write
+    env:
+      BUILD_CONFIG: "Release"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: "*Package"
+          merge-multiple: true
+          path: packages
+
+      - name: NuGet login (OIDC)
+        id: nuget-login
+        uses: NuGet/login@v1
+        with:
+          user: ${{ secrets.NUGET_USER }}
+
+      - name: Upload package to NuGet
+        run: dotnet nuget push "**/*.nupkg" --api-key "${{ steps.nuget-login.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
