@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.0"></a>
+## [5.0.0](https://www.github.com/JaCraig/SQLParser/releases/tag/v5.0.0) (2026-11-15)
+
+### Features
+
+* **framework:** target .NET 10 and 11 ([37c6a77](https://www.github.com/JaCraig/SQLParser/commit/37c6a77d302e9e4e8cb83694c6e924f21b954c9a))
+
+### Breaking Changes
+
+* **framework:** target .NET 10 and 11 ([37c6a77](https://www.github.com/JaCraig/SQLParser/commit/37c6a77d302e9e4e8cb83694c6e924f21b954c9a))
+
 <a name="4.1.6"></a>
 ## [4.1.6](https://www.github.com/JaCraig/SQLParser/releases/tag/v4.1.6) (2026-11-08)
 
