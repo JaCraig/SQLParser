@@ -3,13 +3,15 @@
     {
       "src": [
         {
-          "files": ["SQLParser/SQLParser.csproj"],
+          "files": [
+            "SQLParser/SQLParser.csproj"
+          ],
           "src": "../"
         }
       ],
       "dest": "api",
       "properties": {
-        "TargetFramework": "net8.0"
+        "TargetFramework": "net10.0"
       },
       "includePrivateMembers": false,
       "disableGitFeatures": false,
@@ -32,7 +34,7 @@
       "_enableNewTab": true,
       "_disableContribution": false,
       "_disableBreadcrumb": false
-  },
+    },
     "content": [
       {
         "files": [
